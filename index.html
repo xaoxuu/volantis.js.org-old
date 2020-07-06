@@ -1,0 +1,2363 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme="https://volantis.js.org/#3.0-beta">
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+      
+        <meta name="robots" content="index,follow">
+      
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+  <title>Volantis</title>
+  
+    <meta name="keywords" content="Volantis,Hexo,Hexo主题,Blog,博客">
+  
+
+  
+    <meta name="description" content="Volantis，一个高度模块化和可定制化、功能相对完善的Hexo博客主题，既可以用作个人博客，也适合用来搭建文档。">
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="Volantis">
+  
+
+  <!-- import meta -->
+  
+    
+      <meta name="theme-color" content="#FFFFFF">
+    
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+
+  <!-- import link -->
+  
+  
+  <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="/assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/favicon/favicon_180.png">
+  <link rel="mask-icon" color="#1BC3FB" href="/assets/favicon/favicon_180.png">
+  <link rel="manifest" href="/manifest.json">
+  
+
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+
+  
+  
+</head>
+
+<body>
+  
+  
+  
+  <div class="cover-wrapper">
+    <cover class="cover " style="display: none;">
+      <div class="cover-body">
+  <div class="a">
+    
+    
+      <p class="title">Volantis</p>
+    
+    
+      <p class="subtitle">A Wonderful Theme for Hexo</p>
+    
+  </div>
+  <div class="b">
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="搜索文档">
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class="menu navigation">
+      <ul class="cover-list-h">
+        
+          
+            <li>
+              <a class="nav home" href="/v3/getting-started/" id="v3getting-started">
+                <i class="fas fa-book fa-fw"></i>文档
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/archives/" id="archives">
+                <i class="fas fa-rss fa-fw"></i>博文
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/examples/" id="examples">
+                <i class="fas fa-play-circle fa-fw"></i>示例
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="https://github.com/theme-volantis/hexo-theme-volantis/" rel="external nofollow noopener noreferrer" target="_blank" id="https:githubcomtheme-volantishexo-theme-volantis">
+                <i class="fas fa-file-code fa-fw"></i>源码
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/contributors/" id="contributors">
+                <i class="fas fa-handshake fa-fw"></i>鸣谢
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+      <div class="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+    </cover>
+    <header class="l_header shadow blur">
+  <div class="container">
+  <div class="wrapper">
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href="/">
+          
+          
+          
+          
+            VOLANTIS <b><sup style="color:#ff9800">3.0-beta</sup></b>
+          
+        </a>
+      
+
+			<div class="menu navigation">
+				<ul class="nav-list-h">
+          
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/v3/getting-started/" id="v3getting-started">
+                  <i class="fas fa-flag fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-book fa-fw"></i>文档
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/site-settings/" id="v3site-settings">
+                  <i class="fas fa-globe-asia fa-fw"></i>站点配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/theme-settings/" id="v3theme-settings">
+                  <i class="fas fa-palette fa-fw"></i>主题配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/page-settings/" id="v3page-settings">
+                  <i class="fas fa-file-alt fa-fw"></i>页面配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/tag-plugins/" id="v3tag-plugins">
+                  <i class="fas fa-pen-alt fa-fw"></i>标签插件
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/advanced-settings/" id="v3advanced-settings">
+                  <i class="fas fa-flask fa-fw"></i>进阶设定
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/faqs/" id="faqs">
+                  <i class="fas fa-question-circle fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/examples/" id="examples">
+                  <i class="fas fa-play-circle fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/contributors/" id="contributors">
+                  <i class="fas fa-handshake fa-fw"></i>鸣谢
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/volantis-docs/" id="https:githubcomtheme-volantisvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/" id="https:githubcomtheme-volantishexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" id="https:githubcomtheme-volantishexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  公告和测试
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
+
+			<ul class="switcher nav-list-h">
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/v3/getting-started/" id="v3getting-started">
+                  <i class="fas fa-flag fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-book fa-fw"></i>文档
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/site-settings/" id="v3site-settings">
+                  <i class="fas fa-globe-asia fa-fw"></i>站点配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/theme-settings/" id="v3theme-settings">
+                  <i class="fas fa-palette fa-fw"></i>主题配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/page-settings/" id="v3page-settings">
+                  <i class="fas fa-file-alt fa-fw"></i>页面配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/tag-plugins/" id="v3tag-plugins">
+                  <i class="fas fa-pen-alt fa-fw"></i>标签插件
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/advanced-settings/" id="v3advanced-settings">
+                  <i class="fas fa-flask fa-fw"></i>进阶设定
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/faqs/" id="faqs">
+                  <i class="fas fa-question-circle fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/examples/" id="examples">
+                  <i class="fas fa-play-circle fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/contributors/" id="contributors">
+                  <i class="fas fa-handshake fa-fw"></i>鸣谢
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/volantis-docs/" id="https:githubcomtheme-volantisvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/" id="https:githubcomtheme-volantishexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" id="https:githubcomtheme-volantishexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  公告和测试
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+  </div>
+  
+
+  <div class="l_body">
+    <div class="body-wrapper" id="pjax-container">
+      
+        <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+
+
+<div id="pjax-data" style="display: none">
+  <div id="pjax-ispage">false</div>
+  <div id="pjax-pageTitle"></div>
+  <div id="pjax-enable-cover">true</div>
+  
+  
+</div>
+
+
+<script>
+  // 处理封面 此时 jquery 还没加载
+  if ("docs" == "none") { // 移除封面
+    document.getElementsByClassName('cover')[0].style.display = "none";
+    document.getElementsByClassName('l_body')[0].classList.add("nocover");
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show");
+  } else {
+    if ("docs" == "blog") { // 半屏
+      document.getElementsByClassName('cover')[0].classList.remove("full");
+      document.getElementsByClassName('cover')[0].classList.add("half");
+      document.getElementsByClassName('scroll-down')[0].style.display = "none";
+    } else if ("docs" == "docs") { // 全屏
+      document.getElementsByClassName('cover')[0].classList.remove("half");
+      document.getElementsByClassName('cover')[0].classList.add("full");
+      document.getElementsByClassName('scroll-down')[0].style.display = "";
+    }
+    document.getElementsByClassName('cover')[0].style.display = "";
+    document.getElementsByClassName('l_body', 'show')[0].classList.remove("nocover");
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show");
+  }
+</script>
+
+      
+      
+
+<div class="l_main">
+  
+  <section class="post-list ">
+    
+      
+        
+          
+            
+              <div class="post-wrapper">
+                <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+        <div class="new-meta-box">
+          
+        </div>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>
+<span class="p logo center large">Volantis</span>
+<span class="p center small">A Wonderful Theme for Hexo</span>
+</p>
+<br>
+
+<p>Volantis，一个高度模块化和可定制化、功能相对完善的 Hexo 博客主题，既可以用作个人博客，也适合用来搭建文档。</p>
+<span class="btn large center"><a href="/v3/getting-started/" title="开始使用"><i class="fas fa-download"></i>开始使用</a></span>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+              </div>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+    
+    
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-07-03/">
+      如何快速优雅地删除垃圾评论
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年7月3日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>昨天刚做好 App，今天就看到两条垃圾评论。</p>
+<div class="videos center" col="3"><div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/valine-ios.mov" type="video/mp4">Your browser does not support the video tag.</video></div></div>
+
+<blockquote>
+<p>App 只支持数据存储于 LeanCloud 的评论系统。</p>
+</blockquote>
+<p>App 登录前需要配置 AppID 和 AppKey，由于字符比较长，输入不方便，所以支持 URL Scheme 配置。将 URL 生成一个二维码，然后用手机扫码就可以打开 App 并自动配置好。</p>
+<p>格式为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目</span><br></pre></td></tr></table></figure>
+
+<p>也可以把管理员用户的账号和密码配置上，扫码直接登录，但是注意不要泄露出去：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">valine:&#x2F;&#x2F;cfg&#x2F;id&#x3D;7yIoRlSmfX09vQCERsuWzFnx-MdYXbMMI&amp;key&#x3D;3zCL5GFePTUjwbqLop44QFbr&amp;alias&#x3D;测试项目&amp;user&#x3D;me@xaoxuu.com&amp;psw&#x3D;q</span><br></pre></td></tr></table></figure>
+
+<p>注意：这个管理员用户并不是 LeanCloud 的账号，而是当前 Valine 数据库中的 <code>_User</code> 表中的一个用户，可以在 App 中注册，然后在 LeanCloud 上把注册的用户设置为管理员。</p>
+<p>设置管理员的方法：在 <code>_Role</code> 表中新建一个 <code>admin</code> 角色，然后在 <code>admin</code> 角色的 <code>users</code> 列中点击 <code>Relations</code> 把自己刚注册的用户添加进去，这个用户就有了修改和删除评论数据的权限。</p>
+<h2 id="App-测试版地址"><a href="#App-测试版地址" class="headerlink" title="App 测试版地址"></a>App 测试版地址</h2><div class="btns circle center grid4">
+            <a href="https://testflight.apple.com/join/zA4MOzDd" target="_blank" rel="external nofollow noopener noreferrer">
+  <i class="fab fa-apple"></i>
+  <b>Valine</b>
+  <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/07/04/cGmgsHhwlt4vYyK.png">
+</a>
+          </div>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/215/" target="_blank" rel="external nofollow noopener noreferrer">
+      关于主题与文档的更新
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年4月4日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>由于主题目前仍处于青少年阶段，更新迭代速度比较快，所以不会保留旧版本的文档，如果需要查看旧版本的文档，请下载主题文档的源码，回退到旧版本，本地运行查看。</p>
+<ul>
+<li>计划 <code>2.x</code> 的最后一个版本的文档会保留至 <code>5.0</code> 发布时，即最终会同时维护3个大版本的文档。</li>
+<li>当主题稳定后会提供英文文档。</li>
+</ul>
+      
+    </div>
+    
+      
+        <div class="button readmore">
+          <a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/215/" target="_blank" rel="external nofollow noopener noreferrer">
+            阅读全文 <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-03-10-2.0/">
+      新版本「2.0」正式版发布
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年3月10日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本次更新内容非常多，主要升级了导航栏、使用新的语言重写了全部样式。旧版本 Volantis 用户，请您卸载掉旧的样式渲染插件，并安装新的：</p>
+<ol>
+<li><p>卸载 <code>less</code></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm uninstall hexo-renderer-less --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装 <code>stylus</code></p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h2 id="新功能"><a href="#新功能" class="headerlink" title="新功能"></a>新功能</h2><h3 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h3><p>导航栏获得了史诗级的增强，可以设置<u><strong>N级</strong></u>子菜单。考虑到实用性，不太建议使用过多或者过深的菜单（超出屏幕的部分无法被看到）。</p>
+<h3 id="样式设置"><a href="#样式设置" class="headerlink" title="样式设置"></a>样式设置</h3><p>现在可以在主题配置文件中设置更多的样式：</p>
+<ul>
+<li>最大布局宽度</li>
+<li>导航栏高度、特效（阴影、毛玻璃、鼠标hover时浮起）</li>
+<li>卡片特效（阴影、毛玻璃、鼠标hover时浮起）</li>
+<li>代码框是否显示语言</li>
+<li>标题和正文文本布局（靠左、靠右、居中）</li>
+<li>正文字体</li>
+<li>代码字体</li>
+<li>各部分颜色</li>
+</ul>
+<h3 id="封面"><a href="#封面" class="headerlink" title="封面"></a>封面</h3><p>封面可以在主题配置文件中设置在首页、归档页面、其它页面默认是否显示。<br>封面中可以同时显示logo图片、标题、副标题了。</p>
+<h3 id="小部件"><a href="#小部件" class="headerlink" title="小部件"></a>小部件</h3><p>grid小部件可以设置 <code>fixed: true</code> 来固定网格宽度（适合文字长短不一的场景）。</p>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>可以设置「评论」的标题和副标题。<br>可以创建多种颜色的折叠框。<br>友链增加分组描述。</p>
+<h2 id="功能调整与优化"><a href="#功能调整与优化" class="headerlink" title="功能调整与优化"></a>功能调整与优化</h2><h3 id="样式渲染器"><a href="#样式渲染器" class="headerlink" title="样式渲染器"></a>样式渲染器</h3><p>使用 <code>stylus</code> 重写了所有样式，无需安装<code>less</code>插件了。相较于<code>1.7.4</code>，<code>css</code>文件体积缩小了<u>19.75%</u>。</p>
+<h3 id="主题配置文件"><a href="#主题配置文件" class="headerlink" title="主题配置文件"></a>主题配置文件</h3><ul>
+<li>主题配置文件经过了较大改动，使得层级结构更加清晰。</li>
+<li>优化了二维码（微信）分享的使用体验</li>
+</ul>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-03-06-2.0-beta/">
+      新版本「2.0」测试版发布
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年3月6日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <details open><summary> <p>Beta6</p> </summary>
+              <div class="content">
+              <ul><li><input checked disabled type="checkbox"> 导航栏N级菜单支持分割线和小标题，详见我的个人博客。</li></ul>
+              </div>
+            </details>
+
+<details><summary> <p>Beta5</p> </summary>
+              <div class="content">
+              <ul><li><input checked disabled type="checkbox"> 导航栏<s>二级</s><u>N级</u>菜单</li><li><input checked disabled type="checkbox"> 支持微信二维码分享（需安装二维码生成插件）</li></ul>
+              </div>
+            </details>
+
+<details><summary> <p>Beta4</p> </summary>
+              <div class="content">
+              <ul><li><input checked disabled type="checkbox"> 优化样式</li><li><input checked disabled type="checkbox"> 更多样式可以在主题配置文件中自定义</li><li><input checked disabled type="checkbox"> 调整主题配置文件</li></ul>
+              </div>
+            </details>
+
+<details><summary> <p>Beta3</p> </summary>
+              <div class="content">
+              <ul><li><input checked disabled type="checkbox"> 优化样式</li><li><input checked disabled type="checkbox"> grid 部件新增 <code>fixed: true</code> 参数，用于固定宽度。</li></ul>
+              </div>
+            </details>
+
+<details><summary> <p>Beta2</p> </summary>
+              <div class="content">
+              <ul><li><input checked disabled type="checkbox"> 可以创建多种颜色的折叠框</li><li><input checked disabled type="checkbox"> 友链增加分组描述</li></ul>
+              </div>
+            </details>
+
+<details><summary> <p>Beta1</p> </summary>
+              <div class="content">
+              <ul><li><input checked disabled type="checkbox"> 新版本使用 <code>stylus</code> 完全重写了样式。</li><li><input checked disabled type="checkbox"> 可在主题配置文件中修改配色、标题等多种样式（需要关闭CDN）。<br>已知的BUG有：</li><li><input disabled type="checkbox"> Container左侧的图标（图片）始终显示不出来，原因未知。</li></ul><figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">&gt;<span class="selector-tag">div</span>.info</span><br><span class="line">  <span class="attribute">background-color</span>: alpha(<span class="variable">$color</span>-mac-cyan, <span class="number">20%</span>)</span><br><span class="line">  <span class="attribute">border-left</span>: <span class="variable">$borderradius</span>-codeblock solid <span class="variable">$color</span>-mac-cyan</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="variable">$borderradius</span>-codeblock</span><br><span class="line">  &gt;:before</span><br><span class="line">    ...(省略无关代码)</span><br><span class="line">    <span class="attribute">background-size</span>: <span class="number">16px</span> <span class="number">16px</span></span><br><span class="line">    <span class="attribute">background-position</span>: <span class="number">4px</span> <span class="number">4px</span></span><br><span class="line">    <span class="attribute">background-repeat</span>: no-repeat</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="variable">$color</span>-mac-cyan</span><br><span class="line">    <span class="attribute">background-image</span>: url(<span class="string">"data:image/svg+xmlbase64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHdpZHRoPSIxNzkyIiBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyMTYgMTM0NHYxMjhxMCAyNi0xOSA0NXQtNDUgMTloLTUxMnEtMjYgMC00NS0xOXQtMTktNDV2LTEyOHEwLTI2IDE5LTQ1dDQ1LTE5aDY0di0zODRoLTY0cS0yNiAwLTQ1LTE5dC0xOS00NXYtMTI4cTAtMjYgMTktNDV0NDUtMTloMzg0cTI2IDAgNDUgMTl0MTkgNDV2NTc2aDY0cTI2IDAgNDUgMTl0MTkgNDV6bS0xMjgtMTE1MnYxOTJxMCAyNi0xOSA0NXQtNDUgMTloLTI1NnEtMjYgMC00NS0xOXQtMTktNDV2LTE5MnEwLTI2IDE5LTQ1dDQ1LTE5aDI1NnEyNiAwIDQ1IDE5dDE5IDQ1eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg=="</span>)</span><br></pre></td></tr></table></figure><blockquote><p>我试过把url里面的内容换成网络图片的URL是可以正常显示的。<br>源码在： <code>themes/volantis/source/css/_third-party/container.styl</code></p></blockquote>
+              </div>
+            </details>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/test/2020-03-06-test-url/">
+      测试「文章内链接作文本的话无法生成静态文件」
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年3月6日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>5、测试Tomcat是否配置成功：打开浏览器，输入在地址栏中输入： <a href="http://localhost:8080" target="_blank" rel="external nofollow noopener noreferrer">http://localhost:8080</a> 的运行结果如下图即为即为配置成功！（因为Tomcat已经在运行再次打开会报错）</p>
+<p>相关 Issue： <a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/164" target="_blank" rel="external nofollow noopener noreferrer">#164</a></p>
+<div class="note success"><p>结论：存在这篇文章的情况下能够成功 deploy ，说明这不是主题的 BUG。</p></div>
+
+<div class="note ">
+            <p><code>markdwon</code> 解析插件为 <code>hexo-renderer-marked</code> 时此插件默认会自动识别 URL ，且原文链接前后没有空格，所以链接前后增加一个空格或者在根目录配置文件中设置 <code>autolink: false</code> 都可以避免 deploy 报错。<br>插件：<a href="https://github.com/hexojs/hexo-renderer-marked" target="_blank" rel="external nofollow noopener noreferrer">hexo-renderer-marked</a></p>
+          </div>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-02-25/">
+      新增 pjax 开发分支
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年2月25日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>由于功能未完全兼容，如果想率先使用，尽量不要改主题配置文件。</p>
+<ul>
+<li>不能使用封面</li>
+<li>mathjax</li>
+<li>有折叠框的页面，折叠框打开之后目录高亮位置不对应</li>
+<li>很多未知问题</li>
+</ul>
+<blockquote>
+<p>感谢 <a href="https://inkss.cn/" target="_blank" rel="external nofollow noopener noreferrer">@inkss</a> 发布的这篇教程 <a href="https://inkss.cn/article/other/80b5f235.html" target="_blank" rel="external nofollow noopener noreferrer">《Hexo 博客部署 Pjax 局部刷新》</a><br>当所有兼容性问题解决或妥协之后，pjax 分支会合并入 master。</p>
+</blockquote>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-02-22/">
+      主题更名为「Volantis」
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年2月22日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>主题原名「Material X」,最初由「Material-Flow」改编，现已完全没有材质化设计的影子了。风格偏向简约风技术类博客，最大的特点是自由。现更名为「Volantis」，取自权力的游戏地名。</p>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-02-21/">
+      主题文档网页更新并开源
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年2月21日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>主题经过几年迭代，现已高度模块化和可定制化，功能相对完善，适合用作文档。原来的 <a href="https://github.com/xaoxuu/hexo-theme-vuex" target="_blank" rel="external nofollow noopener noreferrer">文档主题</a> 将不再维护和更新。</p>
+<p>现在使用的文档页面源码是： <span class="btn"><a href="https://github.com/theme-volantis/volantis-docs" target="_blank" rel="external nofollow noopener noreferrer" title="volantis-docs">volantis-docs</a></span></p>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-02-20/">
+      已关闭评论区
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年2月20日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="使用-GitHub-Issue"><a href="#使用-GitHub-Issue" class="headerlink" title="使用 GitHub Issue"></a>使用 GitHub Issue</h4><p>由于 Valine 匿名评论不适合追踪和解决问题，因此决定暂时关闭评论区。<br>为了精准高效解决问题，请前往 <span class="btn"><a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/" target="_blank" rel="external nofollow noopener noreferrer" title="GitHub Issue">GitHub Issue</a></span></p>
+<h4 id="遇到问题怎么办"><a href="#遇到问题怎么办" class="headerlink" title="遇到问题怎么办"></a>遇到问题怎么办</h4><ol>
+<li>确定已经查阅文档找不到相关内容。</li>
+<li>前往「常见问题」页面，查看是否有解决方案。</li>
+<li>访问在线示例，查看是否具有相同第问题。<br>3.1. 如果在线示例表示正常，则说明自己配置有误，检查开发环境、主题配置是否正确。如果检查不出问题，提Issue询问。<br>3.2. 如果在线示例也存在相同问题，则说明存在BUG，请提Issue反馈。</li>
+<li>如果在线示例没有相关内容，下载示例博客源码，修改运行本地预览，进行第3步判断操作。</li>
+</ol>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+        
+          <div class="post-wrapper">
+            <article class="post white-box blur reveal ">
+  
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h2 class="title">
+    <a href="/news/2020-02-19/">
+      版本命名规范化
+    </a>
+  </h2>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2020年2月19日</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p class="p red bold">主版本号.子版本号.修订版本号</p>
+
+<p>主题从2017年至今，已经经历了相当多的大版本迭代和数不尽的小版本更新，但是版本号的更新一直没有遵循规范。从下次更新开始，将遵循下述的规范：</p>
+<ul>
+<li><strong>主版本号</strong>： 较大改动、框架调整或重构</li>
+<li><strong>子版本号</strong>： 较小或局部的功能性更新</li>
+<li><strong>修订版本号</strong>： 修复BUG或无关紧要的细节调整</li>
+</ul>
+
+      
+    </div>
+    
+      
+    
+  </section>
+</article>
+
+          </div>
+        
+      
+    
+  </section>
+  
+    
+      <br>
+      <div class="prev-next">
+        
+        <p class="current">
+          1 / 3
+        </p>
+        
+          <a class="next" rel="next" href="/page/2/">
+            <section class="post next white-box blur">
+              &nbsp;下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
+            </section>
+          </a>
+        
+      </div>
+    
+    <!-- 根据主题中的设置决定是否在archive中针对摘要部分的MathJax公式加载mathjax.js文件 -->
+    
+    
+
+  
+
+
+</div>
+<aside class="l_side">
+  
+  
+    
+    
+
+<section class="widget list blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i><span class="name">近期公告</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="https://github.com/theme-volantis/hexo-theme-volantis/issues/215" href="https://github.com/theme-volantis/hexo-theme-volantis/issues/215" id="https:githubcomtheme-volantishexo-theme-volantisissues215" rel="external nofollow noopener noreferrer" target="_blank">
+          <div class="name">
+            
+              <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+            
+            关于主题与文档的更新
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/getting-started/#%E5%8D%87%E7%BA%A7%E5%B0%8F%E5%8A%A9%E6%89%8B" href="/v3/getting-started/#%E5%8D%87%E7%BA%A7%E5%B0%8F%E5%8A%A9%E6%89%8B" id="v3getting-started#E58D87E7BAA7E5B08FE58AA9E6898B">
+          <div class="name">
+            
+              <i class="fas fa-angle-double-up fa-fw" aria-hidden="true"></i>
+            
+            升级小助手
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+
+  
+
+<section class="widget list group blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-list-alt fa-fw" aria-hidden="true"></i><span class="name">文档 V3</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="/v3/getting-started/" href="/v3/getting-started/" id="v3getting-started">
+          <div class="name">
+            
+            1. 开始使用
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/site-settings/" href="/v3/site-settings/" id="v3site-settings">
+          <div class="name">
+            
+            2. 站点配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/" href="/v3/theme-settings/" id="v3theme-settings">
+          <div class="name">
+            
+            3. 主题配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/" href="/v3/page-settings/" id="v3page-settings">
+          <div class="name">
+            
+            4. 页面配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/" href="/v3/tag-plugins/" id="v3tag-plugins">
+          <div class="name">
+            
+            5. 标签插件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/advanced-settings/" href="/v3/advanced-settings/" id="v3advanced-settings">
+          <div class="name">
+            
+            6. 进阶设定
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+  
+
+  
+    
+    
+
+<section class="widget text blur desktop">
+  
+  <header>
+    
+      <a href="https://github.com/xaoxuu/" target="_blank" rel="external nofollow noopener noreferrer"><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class="name">点个赞吧</span></a>
+    
+  </header>
+
+
+  <div class="content">
+    
+      <p><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"></p>
+
+    
+      <p>您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下。</p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ValueX" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/Inspire" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px"></a></p>
+
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+<section class="widget qrcode blur desktop">
+  
+  <header>
+    
+      <i class="fas fa-mobile fa-fw" aria-hidden="true"></i><span class="name">手机观看</span>
+    
+  </header>
+
+
+  <div class="content article-entry">
+    
+      
+        <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/wiki_volantis.png">
+      
+    
+  </div>
+</section>
+
+  
+
+
+</aside>
+
+
+
+    </div>
+    
+  
+  <footer class="clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js theme="#1BCDFC" autoplay="true" volume="0.4" loop="all" order="random" fixed="false" list-max-height="340px" server="netease" type="playlist" id="76244489" list-folded="true">
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        本站使用
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+        作为主题，总访问量为
+          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          次
+        
+      
+    
+      
+        <div class="copyright">
+        <p><a href="https://xaoxuu.com" target="_blank" rel="noopener">Copyright © 2017-2020 Mr. X</a></p>
+
+        </div>
+      
+    
+  </footer>
+
+
+    <a class="s-top fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+  </div>
+  <div>
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+
+  
+  
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        var imgs=["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg"];
+        if ('true' == 'true') {
+          function shuffle(arr){
+            /*From countercurrent-time*/
+            var n = arr.length;
+            while(n--) {
+              var index = Math.floor(Math.random() * n);
+              var temp = arr[index];
+              arr[index] = arr[n];
+              arr[n] = temp;
+            }
+          }
+          shuffle(imgs);
+        }
+        if ('') {
+          $('').backstretch(
+            imgs,
+          {
+            duration: "20000",
+            fade: "1500"
+          });
+        } else {
+          $.backstretch(
+            imgs,
+          {
+            duration: "20000",
+            fade: "1500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+  
+
+
+<!--PS：只对 valine 做了 Pjax 兼容-->
+
+
+
+
+
+
+
+  
+    
+<script src="/js/valine.js"></script>
+
+  
+  <script>
+    var GUEST_INFO = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail'.split(',').filter(function (item) {
+      return GUEST_INFO.indexOf(item) > -1
+    });
+    var REQUIRED_FIELDS = ['nick', 'mail', 'link'];
+    var requiredFields = 'nick'.split(',').filter(function (item) {
+      return REQUIRED_FIELDS.indexOf(item) > -1
+    });
+
+    function emoji(path, idx, ext) {
+      return path + "/" + path + "-" + idx + "." + ext;
+    }
+
+    var emojiMaps = {};
+    for (var i = 1; i <= 54; i++) {
+      emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+    }
+    for (var i = 1; i <= 101; i++) {
+      emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+    }
+    for (var i = 1; i <= 116; i++) {
+      emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+    }
+    for (var i = 1; i <= 125; i++) {
+      emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+    }
+    for (var i = 1; i <= 4; i++) {
+      emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+    }
+
+    function pjax_valine() {
+      var valinePath = $.trim($('#valine-path').text()) === "none" ?
+              window.location.pathname : $.trim($('#valine-path').text());
+
+      var valinePlaceholder = $.trim($('#valine-placeholder').text()) === "none" ?
+              "这里仅供用户之间进行交流，有任何疑问请前往GitHub提交Issue。在评论区进行提问将不会收到开发者的任何回复！" : $.trim($('#valine-placeholder').text());
+
+      var ALLPATH = '/';
+      if(ALLPATH != '') valinePath = ALLPATH;
+
+      var valine = new Valine();
+      valine.init({
+        el: '#valine_container',
+        meta: meta,
+        placeholder: valinePlaceholder,
+        path: valinePath,
+        appId: "FIKAgh6n0pUM08JXxhJHChVQ-MdYXbMMI",
+        appKey: "RJGiOYFc1fBvfox4frBPpRzU",
+        pageSize: '10',
+        avatar: 'robohash',
+        lang: 'zh-cn',
+        visitor: 'true',
+        highlight: 'true',
+        mathJax: 'false',
+        enableQQ: 'true',
+        requiredFields: requiredFields,
+        emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+        emojiMaps: emojiMaps
+      })
+    }
+
+    $(function () {
+      pjax_valine();
+    });
+  </script>
+
+
+
+<!--darkmodejs -->
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+
+    function pjax_initCopyCode() {
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        var clipboard = new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+                return trigger.nextElementSibling
+            }
+        });
+        clipboard.on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+</script>
+
+
+<!--scrollreveal -->
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    function pjax_scrollrebeal() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    }
+
+    $(function () {
+      pjax_scrollrebeal();
+    });
+  </script>
+
+<!-- ******************************** -->
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  function pjax_fancybox() {
+    $(".article-entry").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".article-entry").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  $(function () {
+    pjax_fancybox();
+  });
+</script>
+
+<!-- ******************************** -->
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+
+  
+    
+<script src="/js/search.js"></script>
+
+  
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+
+
+
+
+
+
+    
+      
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+<!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+</div>
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#pjax-container"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+  
+    document.addEventListener('pjax:send', function (e) {
+      window.stop(); // 相当于点击了浏览器的停止按钮
+      var currentUrl = window.location.pathname;
+      var targetUrl = e.triggerElement.href;
+      var banUrl = [""];
+      if (banUrl[0] != "") {
+        banUrl.forEach(item => {
+          if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+            window.location.href = targetUrl;
+          }
+        });
+      }
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      $.fancybox.close();    // 关闭弹窗
+      $('.nav-main').find('.list-v').not('.menu-phone').css("display","none"); // 移除小尾巴
+      $('.menu-phone.list-v').css("display","none"); // 移除小尾巴
+      $('.l_header .switcher .s-search').removeClass('active'); // 关闭移动端激活的搜索框
+      $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
+      $(window).unbind('resize');    // 解绑
+      $(window).unbind('scroll');    // 解绑
+      $(window).unbind('click');     // 解绑
+      $(document).unbind('scroll');  // 解绑
+      window.ShowLoading();
+    });
+  
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+      // 
+  
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+      
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+  
+      try{
+        pjax_fancybox();
+        
+          
+          if ('') {
+            $('').backstretch("resize");
+          } else {
+            $.backstretch("resize");
+          }
+        
+        
+          pjax_scrollrebeal();
+        
+        
+          pjax_initCopyCode();
+        
+        
+          pjax_valine();
+        
+        
+        
+      } catch (e) {
+        console.log(e);
+      }
+      window.HideLoading();
+    });
+  
+    document.addEventListener('pjax:error', function (e) { 
+      window.HideLoading(); 
+      window.location.href = e.triggerElement.href; 
+    }); 
+</script>
+  
+    
+  </div>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: true,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var i=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){i&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,e,a=0;a<r.length;a++)t=r[a],e=void 0,0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+</html>

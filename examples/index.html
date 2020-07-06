@@ -1,0 +1,2511 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme="https://volantis.js.org/#3.0-beta">
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+  <title>示例博客 - Volantis</title>
+  
+
+  
+    <meta name="description" content="
+示
+例
+博
+客
+
+
+
+这些是一部分使用了「Volantis」主题的博客，由博主自助添加。如果你也使用了「Volantis」，希望在这里推广自己的博客，可以按照本页下方提供的格式自行添加。">
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="Volantis">
+  
+
+  <!-- import meta -->
+  
+    
+      <meta name="theme-color" content="#FFFFFF">
+    
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+
+  <!-- import link -->
+  
+  
+  <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="/assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/favicon/favicon_180.png">
+  <link rel="mask-icon" color="#1BC3FB" href="/assets/favicon/favicon_180.png">
+  <link rel="manifest" href="/manifest.json">
+  
+
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+
+  
+  
+</head>
+
+<body>
+  
+  
+  
+  <div class="cover-wrapper">
+    <cover class="cover links" style="display: none;">
+      <div class="cover-body">
+  <div class="a">
+    
+    
+      <p class="title">Volantis</p>
+    
+    
+      <p class="subtitle">A Wonderful Theme for Hexo</p>
+    
+  </div>
+  <div class="b">
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="搜索文档">
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class="menu navigation">
+      <ul class="cover-list-h">
+        
+          
+            <li>
+              <a class="nav home" href="/v3/getting-started/" id="v3getting-started">
+                <i class="fas fa-book fa-fw"></i>文档
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/archives/" id="archives">
+                <i class="fas fa-rss fa-fw"></i>博文
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/examples/" id="examples">
+                <i class="fas fa-play-circle fa-fw"></i>示例
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="https://github.com/theme-volantis/hexo-theme-volantis/" rel="external nofollow noopener noreferrer" target="_blank" id="https:githubcomtheme-volantishexo-theme-volantis">
+                <i class="fas fa-file-code fa-fw"></i>源码
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/contributors/" id="contributors">
+                <i class="fas fa-handshake fa-fw"></i>鸣谢
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+      <div class="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+    </cover>
+    <header class="l_header shadow blur">
+  <div class="container">
+  <div class="wrapper">
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href="/">
+          
+          
+          
+          
+            VOLANTIS <b><sup style="color:#ff9800">3.0-beta</sup></b>
+          
+        </a>
+      
+
+			<div class="menu navigation">
+				<ul class="nav-list-h">
+          
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/v3/getting-started/" id="v3getting-started">
+                  <i class="fas fa-flag fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-book fa-fw"></i>文档
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/site-settings/" id="v3site-settings">
+                  <i class="fas fa-globe-asia fa-fw"></i>站点配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/theme-settings/" id="v3theme-settings">
+                  <i class="fas fa-palette fa-fw"></i>主题配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/page-settings/" id="v3page-settings">
+                  <i class="fas fa-file-alt fa-fw"></i>页面配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/tag-plugins/" id="v3tag-plugins">
+                  <i class="fas fa-pen-alt fa-fw"></i>标签插件
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/advanced-settings/" id="v3advanced-settings">
+                  <i class="fas fa-flask fa-fw"></i>进阶设定
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/faqs/" id="faqs">
+                  <i class="fas fa-question-circle fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/examples/" id="examples">
+                  <i class="fas fa-play-circle fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/contributors/" id="contributors">
+                  <i class="fas fa-handshake fa-fw"></i>鸣谢
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/volantis-docs/" id="https:githubcomtheme-volantisvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/" id="https:githubcomtheme-volantishexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" id="https:githubcomtheme-volantishexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  公告和测试
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
+
+			<ul class="switcher nav-list-h">
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/v3/getting-started/" id="v3getting-started">
+                  <i class="fas fa-flag fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-book fa-fw"></i>文档
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/site-settings/" id="v3site-settings">
+                  <i class="fas fa-globe-asia fa-fw"></i>站点配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/theme-settings/" id="v3theme-settings">
+                  <i class="fas fa-palette fa-fw"></i>主题配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/page-settings/" id="v3page-settings">
+                  <i class="fas fa-file-alt fa-fw"></i>页面配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/tag-plugins/" id="v3tag-plugins">
+                  <i class="fas fa-pen-alt fa-fw"></i>标签插件
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/advanced-settings/" id="v3advanced-settings">
+                  <i class="fas fa-flask fa-fw"></i>进阶设定
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/faqs/" id="faqs">
+                  <i class="fas fa-question-circle fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/examples/" id="examples">
+                  <i class="fas fa-play-circle fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/contributors/" id="contributors">
+                  <i class="fas fa-handshake fa-fw"></i>鸣谢
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/volantis-docs/" id="https:githubcomtheme-volantisvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/" id="https:githubcomtheme-volantishexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" id="https:githubcomtheme-volantishexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  公告和测试
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+  </div>
+  
+
+  <div class="l_body nocover">
+    <div class="body-wrapper" id="pjax-container">
+      
+        <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+
+
+<div id="pjax-data" style="display: none">
+  <div id="pjax-ispage">false</div>
+  <div id="pjax-pageTitle"></div>
+  <div id="pjax-enable-cover">true</div>
+  
+  <div id="valine-path">none</div>
+  <div id="valine-placeholder">none</div>
+  
+  
+</div>
+
+
+<script>
+  // 处理封面 此时 jquery 还没加载
+  if ("none" == "none") { // 移除封面
+    document.getElementsByClassName('cover')[0].style.display = "none";
+    document.getElementsByClassName('l_body')[0].classList.add("nocover");
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show");
+  } else {
+    if ("none" == "blog") { // 半屏
+      document.getElementsByClassName('cover')[0].classList.remove("full");
+      document.getElementsByClassName('cover')[0].classList.add("half");
+      document.getElementsByClassName('scroll-down')[0].style.display = "none";
+    } else if ("none" == "docs") { // 全屏
+      document.getElementsByClassName('cover')[0].classList.remove("half");
+      document.getElementsByClassName('cover')[0].classList.add("full");
+      document.getElementsByClassName('scroll-down')[0].style.display = "";
+    }
+    document.getElementsByClassName('cover')[0].style.display = "";
+    document.getElementsByClassName('l_body', 'show')[0].classList.remove("nocover");
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show");
+  }
+</script>
+
+      
+      
+
+<div class="l_main">
+  <article id="links" class="post white-box reveal blur article-type-links" itemscope itemprop="blogPost">
+    
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+        <div class="new-meta-box">
+          
+        </div>
+        
+      </div>
+    
+  </section>
+
+
+      <section class="article article-entry l_friends">
+        <center>
+<span class="p large red">示</span>
+<span class="p large yellow">例</span>
+<span class="p large green">博</span>
+<span class="p large blue">客</span>
+</center>
+<br>
+
+<p>这些是一部分使用了「Volantis」主题的博客，由博主自助添加。如果你也使用了「Volantis」，希望在这里推广自己的博客，可以按照本页下方提供的格式自行添加。</p>
+        
+          
+            
+              <div class="friends-group">
+                
+                  <br>
+                  <h3 class="friend-header">
+                    
+                    版本：^2.5～2.6
+                  </h3>
+                  
+                    <p>新增 Group、References 组件；新增 Checkbox、Radio、Image、Video 等标签</p>
+
+                  
+                
+                <div class="friend-content">
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://xaoxuu.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/26/lmJ1xrQ2KR9YZiz.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">xaoxuu</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>主题作者</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://wongqingbin.github.io">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/05/17/P597ZQdSArztBCx.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Frieza</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>测试开发</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>python</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://actuarygarden.cn">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://imgkr.cn-bj.ufileos.com/5ff3c7ea-3f6e-40c7-92ec-3b926c35afd7.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">精算后花园</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>精算师考试</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://inkss.cn/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://img.inkss.cn/inkss_cn/static/img/favicon.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">SZYINK</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://233213fedf.github.io">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/02/22/WbxiwCG1gDEF3Od.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">233213fedf</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://mrhuanhao.cn/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/26/mdP9RlE1iQS7UgX.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Huanhao</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>2.3主题</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>linux</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://colsrch.top">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/26/YSNKVcvtwMdWzAg.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Colsrch</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>C/C++</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>MFC</p>
+                          
+                          </div>
+                        
+                        
+                          <div class="friend-tags-wrapper">
+                            <p class="tags">愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.flexiston.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/05/13/2hwC84rbRyO3c1P.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Flexiston</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>笔记</p>
+                          
+                          </div>
+                        
+                        
+                          <div class="friend-tags-wrapper">
+                            <p class="tags">立即行动吧，未来要自己争取</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://blog.chrisyy.top">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/02/uPRxC6fvsU4dlcb.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Chrisyy</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>ctf</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>math</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.blublu.site/?utm_source=volantis&utm_medium=bloglink">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/05/04/pqAuiFOX8MYJxZ4.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">杂谈小站</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>data</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.jitwxs.cn/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/05/05/Im1rj3XAUzGnOx2.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Jitwxs</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Java</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Web</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://totoro.tech">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://totoro.tech/images/author.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">淘淘鲁</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Linux</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>小菜鸟</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://hp-l.github.io/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/05/13/B6ufcSPwKjxv124.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">空间不空</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>知识改变年薪，文化改变命运</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://alanwang.site/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/05/14/lLrMfaQ9GOnUsAV.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Alan</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>前端小白</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>记录改变</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://hutaoren.cn">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/D0ggy/MarkDownPhoto@master/hexo/me/image192_192.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">赵泽仁</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>php</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>java</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://wztlink1013.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/wztlink1013/figure/blogbase/touxiang.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">尼采般地抒情</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>总结技术，记录生活</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://dusays.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.dusays.com/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">杜老师说</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>分享技术</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="http://www.throwable.club">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://public-1256189093.cos.ap-guangzhou.myqcloud.com/static/doge_avatar.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Throwable</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Chives</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Java</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.bfdz.ink/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://www.bfdz.ink/favicon.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">BFDZ</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Linux</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>BT</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://azusemisa.top/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xiao-lin52/cdn-assets/images/avatar.webp">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">AzuSemisa</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>OIer</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>C++</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.fkxxyz.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://www.fkxxyz.com/logo/192x192.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">四叶草🍀️</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>archlinux</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>python</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://qinxs.github.io">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">qinxs</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>技术总结</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>各种折腾</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.aikang.me">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/07/05/GsQ2dLqZguO9JB7.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Boo</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>伪全栈</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                </div>
+              </div>
+            
+          
+            
+              <div class="friends-group">
+                
+                  <br>
+                  <h3 class="friend-header">
+                    
+                    版本：^2.0～2.4
+                  </h3>
+                  
+                    <p>导航栏 N 级菜单；新增 Tab、Note、Menu 标签</p>
+
+                  
+                
+                <div class="friend-content">
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://home.movny.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/movny/cdn-assets/logo/kellogg.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">movny</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://charlie-zzy.github.io">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/charlie-zzy/imgCDN/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Charlie</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>暗色</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://gyl-coder.top">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/gyl-coder/gyl-coder.github.com@v1.0.0/img/touxiang.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Yanliang</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Java</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>简介，自定义</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://jianwudao.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/favicon_512.svg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">剑无道</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Java</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>C#</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>JavaScript</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://liizhi.cn">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://s1.ax1x.com/2020/03/13/8mvbCj.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Chemlez</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Java</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>NLP</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Python</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://sublimerui.top">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/cwxyr/mycdn@master/favicon_new.ico">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">果子小酱</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Python</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Web</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://blog.lhkstudio.me">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/Linhk1606/Linhk1606@V2.0.4/me.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Linhk1606</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>外观轻微修改</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>CheckBox</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.micdz.cn">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/02/29/T2cijraFuM35ECO.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">MicDZ's blog</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>OIer</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>C++</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://crainyday.gitee.io">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/crainyday/blog@master/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">CRainyDay</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>Java</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                </div>
+              </div>
+            
+          
+            
+              <div class="friends-group">
+                
+                  <br>
+                  <h3 class="friend-header">
+                    
+                    版本：^1.6～1.7
+                  </h3>
+                  
+                
+                <div class="friend-content">
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.zhengyuanyuan520.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/26/dup1Qkt3RsOGw8K.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">覃浩的博客</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://chralpha.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/npm/chrdnx@1.0.9/img/head-found.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">ChrAlpha 的幻想乡</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>简洁</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>定制</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.cz5h.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/TianZonglin/tuchuang/img/logo.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">胖五</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>暗色</p>
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>轻微修改</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://blog.yinuxy.com">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/InfiniteYinux/cloud@2.42/avatar/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">YINUXY'S BLOG</p>
+                        
+                          <div class="friend-tags-wrapper">
+                          
+                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>在原主题的基础上添加了仿github日历云和标签云以及文章分类雷达图</p>
+                          
+                          </div>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                </div>
+              </div>
+            
+          
+            
+              <div class="friends-group">
+                
+                  <br>
+                  <h3 class="friend-header">
+                    
+                    上古版本
+                  </h3>
+                  
+                    <p>这是以前曾留言在 <a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/97" target="_blank" rel="external nofollow noopener noreferrer">issue#97</a> 中的博主，如果您更新了版本，记得把您的卡片移动到新版本的分组中。</p>
+
+                  
+                
+                <div class="friend-content">
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://writeblog.github.io/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/03/18/J2Ss8hQfdn9ma6c.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">搅拌糖</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://sxyugao.top/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/sxyugao/Website@master/images/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">YuGao's Blog</p>
+                        
+                        
+                          <div class="friend-tags-wrapper">
+                            <p class="tags">实现了ajax</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://yangwc.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/26/IVryJ9GnoQfB7NM.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">YangWC</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://liyanan2004.github.io">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/LiYanan2004/LiYanan2004.github.io/assets/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">LiYanan2004</p>
+                        
+                        
+                          <div class="friend-tags-wrapper">
+                            <p class="tags">可切换主题</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://arlxn.xyz/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2019/08/20/fEZyINzGS6PkAac.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">泠泫凝</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://createdestruction.github.io/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/26/4KcxHAQf1nziqP7.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">孤独与诗</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://stevenmhy.tk">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/GaisaiYuno/imghost/20200124153036.PNG">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Steven_MengのBlog</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://mark-thinkpad.gitee.io/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://img.vim-cn.com/e5/755adedff8463a344e0870b440b718d4f4fa93.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Mark's blog</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://istaotao.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/03/17/EkVA6H2PJeXBGrY.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">大涛子客栈</p>
+                        
+                        
+                          <div class="friend-tags-wrapper">
+                            <p class="tags">无侧边栏</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.itrhx.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@3.1.0/images/trhx.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">TRHX</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://zymin.cn/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://zymin.cn/img/avatar.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">ZYMIN</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://lijunkui.netlify.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://lijunkui.netlify.com/images/sky.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">预见未来</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://wxwoo.top/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">wxwoo's blog</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://wiyeelu.github.io/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://res.cloudinary.com/wiyeely/image/upload/v1553152177/22922331760_97592547a8_z.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">WiyeeLu</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.xyhthink.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://www.xyhthink.com/img/head.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">xyhthink</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="http://melodyplay.cn/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Melody Player</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://tangyanqiong.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://tangyanqiong.com/img/avatar.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">今晚月色真美</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.172173.com/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://res.cloudinary.com/www-172173-com/image/upload/v1565838363/IMG_1014_ctdjly.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">172173</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://intptrzero.github.io/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://intptrzero.github.io/images/logo.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">IntPtr.Zero</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://www.xshell.cn/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/hailou/Figurebed/img/201912/20191226152805.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">海露-XShell.CN</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="http://www.candysky.top/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/03/18/RMwQiItbyjd7fvK.png">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Candy Boy</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                    <a class="friend-card" style="background:; color:" target="_blank" rel="external nofollow noopener noreferrer" href="https://shansan.top/">
+                      <div class="friend-left">
+                        
+                          <img class="avatar" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/ssmath/images-assets-cdn/try20200311205451.jpg">
+                        
+                      </div>
+                      <div class="friend-right">
+                        <p class="friend-name">Shan san</p>
+                        
+                        
+                      </div>
+                    </a>
+                  
+                </div>
+              </div>
+            
+          
+        
+        <br><br>
+        <p><br><br></p>
+<span class="btn large center"><a href="https://github.com/theme-volantis/volantis-docs/blob/master/source/examples/index.md" target="_blank" rel="external nofollow noopener noreferrer" title="编辑此页"><i class="fas fa-edit"></i>编辑此页</a></span>
+
+<br>
+
+<ol>
+<li>请点击上方的按钮，在 GitHub 上编辑此页。以友链的格式新增条目。</li>
+<li>打开 <a href="https://www.yasuotu.com/" target="_blank" rel="external nofollow noopener noreferrer">压缩图</a> 将图片尺寸调整到 <code>192px</code> 后下载。</li>
+<li>将压缩后的图片上传到 <a href="https://sm.ms/" target="_blank" rel="external nofollow noopener noreferrer">sm.ms 图床</a> 并使用此图片链接作为头像。</li>
+</ol>
+<figure class="highlight md"><figcaption><span>举个栗子</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="bullet">- </span>name: xaoxuu</span><br><span class="line">  url: https://xaoxuu.com</span><br><span class="line">  avatar: https://i.loli.net/2020/04/26/lmJ1xrQ2KR9YZiz.jpg</span><br><span class="line">  tags: [主题作者]</span><br></pre></td></tr></table></figure>
+
+<div class="note success"><p>本站使用了持续集成，在您提交的更改通过审核并合并代码的几分钟后再刷新网页即生效。</p></div>
+      </section>
+        
+
+
+  <section class="meta" id="footer-meta">
+    <div class="new-meta-box">
+      
+        
+          
+
+        
+      
+    </div>
+  </section>
+
+
+  </article>
+
+  <!-- 显示推荐文章和评论 -->
+
+
+
+  <article class="post white-box reveal comments blur">
+    <section class="article typo">
+      <p ct><i class="fas fa-comments"></i> 用户交流区</p>
+      
+        <p cst>这里仅供用户之间进行交流，有任何疑问请前往GitHub提交Issue。在评论区进行提问将不会收到开发者的任何回复！</p>
+      
+      
+      
+      
+      
+      
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+          </div>
+        </section>
+      
+      
+    </section>
+  </article>
+
+
+
+</div>
+<aside class="l_side">
+  
+  
+    
+    
+
+<section class="widget list blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i><span class="name">近期公告</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="https://github.com/theme-volantis/hexo-theme-volantis/issues/215" href="https://github.com/theme-volantis/hexo-theme-volantis/issues/215" id="https:githubcomtheme-volantishexo-theme-volantisissues215" rel="external nofollow noopener noreferrer" target="_blank">
+          <div class="name">
+            
+              <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+            
+            关于主题与文档的更新
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/getting-started/#%E5%8D%87%E7%BA%A7%E5%B0%8F%E5%8A%A9%E6%89%8B" href="/v3/getting-started/#%E5%8D%87%E7%BA%A7%E5%B0%8F%E5%8A%A9%E6%89%8B" id="v3getting-started#E58D87E7BAA7E5B08FE58AA9E6898B">
+          <div class="name">
+            
+              <i class="fas fa-angle-double-up fa-fw" aria-hidden="true"></i>
+            
+            升级小助手
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+
+  
+
+<section class="widget list group blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-list-alt fa-fw" aria-hidden="true"></i><span class="name">文档 V3</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="/v3/getting-started/" href="/v3/getting-started/" id="v3getting-started">
+          <div class="name">
+            
+            1. 开始使用
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/site-settings/" href="/v3/site-settings/" id="v3site-settings">
+          <div class="name">
+            
+            2. 站点配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/" href="/v3/theme-settings/" id="v3theme-settings">
+          <div class="name">
+            
+            3. 主题配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/" href="/v3/page-settings/" id="v3page-settings">
+          <div class="name">
+            
+            4. 页面配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/" href="/v3/tag-plugins/" id="v3tag-plugins">
+          <div class="name">
+            
+            5. 标签插件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/advanced-settings/" href="/v3/advanced-settings/" id="v3advanced-settings">
+          <div class="name">
+            
+            6. 进阶设定
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+  
+
+  
+    
+    
+
+<section class="widget text blur desktop">
+  
+  <header>
+    
+      <a href="https://github.com/xaoxuu/" target="_blank" rel="external nofollow noopener noreferrer"><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class="name">点个赞吧</span></a>
+    
+  </header>
+
+
+  <div class="content">
+    
+      <p><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"></p>
+
+    
+      <p>您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下。</p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ValueX" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/Inspire" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px"></a></p>
+
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+
+
+  
+
+
+</aside>
+
+
+
+    </div>
+    
+  
+  <footer class="clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js theme="#1BCDFC" autoplay="true" volume="0.4" loop="all" order="random" fixed="false" list-max-height="340px" server="netease" type="playlist" id="76244489" list-folded="true">
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        本站使用
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+        作为主题，总访问量为
+          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          次
+        
+      
+    
+      
+        <div class="copyright">
+        <p><a href="https://xaoxuu.com" target="_blank" rel="noopener">Copyright © 2017-2020 Mr. X</a></p>
+
+        </div>
+      
+    
+  </footer>
+
+
+    <a class="s-top fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+  </div>
+  <div>
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+
+  
+  
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        var imgs=["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg"];
+        if ('true' == 'true') {
+          function shuffle(arr){
+            /*From countercurrent-time*/
+            var n = arr.length;
+            while(n--) {
+              var index = Math.floor(Math.random() * n);
+              var temp = arr[index];
+              arr[index] = arr[n];
+              arr[n] = temp;
+            }
+          }
+          shuffle(imgs);
+        }
+        if ('') {
+          $('').backstretch(
+            imgs,
+          {
+            duration: "20000",
+            fade: "1500"
+          });
+        } else {
+          $.backstretch(
+            imgs,
+          {
+            duration: "20000",
+            fade: "1500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+  
+
+
+<!--PS：只对 valine 做了 Pjax 兼容-->
+
+
+
+
+
+
+
+  
+    
+<script src="/js/valine.js"></script>
+
+  
+  <script>
+    var GUEST_INFO = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail'.split(',').filter(function (item) {
+      return GUEST_INFO.indexOf(item) > -1
+    });
+    var REQUIRED_FIELDS = ['nick', 'mail', 'link'];
+    var requiredFields = 'nick'.split(',').filter(function (item) {
+      return REQUIRED_FIELDS.indexOf(item) > -1
+    });
+
+    function emoji(path, idx, ext) {
+      return path + "/" + path + "-" + idx + "." + ext;
+    }
+
+    var emojiMaps = {};
+    for (var i = 1; i <= 54; i++) {
+      emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+    }
+    for (var i = 1; i <= 101; i++) {
+      emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+    }
+    for (var i = 1; i <= 116; i++) {
+      emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+    }
+    for (var i = 1; i <= 125; i++) {
+      emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+    }
+    for (var i = 1; i <= 4; i++) {
+      emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+    }
+
+    function pjax_valine() {
+      var valinePath = $.trim($('#valine-path').text()) === "none" ?
+              window.location.pathname : $.trim($('#valine-path').text());
+
+      var valinePlaceholder = $.trim($('#valine-placeholder').text()) === "none" ?
+              "这里仅供用户之间进行交流，有任何疑问请前往GitHub提交Issue。在评论区进行提问将不会收到开发者的任何回复！" : $.trim($('#valine-placeholder').text());
+
+      var ALLPATH = '/';
+      if(ALLPATH != '') valinePath = ALLPATH;
+
+      var valine = new Valine();
+      valine.init({
+        el: '#valine_container',
+        meta: meta,
+        placeholder: valinePlaceholder,
+        path: valinePath,
+        appId: "FIKAgh6n0pUM08JXxhJHChVQ-MdYXbMMI",
+        appKey: "RJGiOYFc1fBvfox4frBPpRzU",
+        pageSize: '10',
+        avatar: 'robohash',
+        lang: 'zh-cn',
+        visitor: 'true',
+        highlight: 'true',
+        mathJax: 'false',
+        enableQQ: 'true',
+        requiredFields: requiredFields,
+        emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+        emojiMaps: emojiMaps
+      })
+    }
+
+    $(function () {
+      pjax_valine();
+    });
+  </script>
+
+
+
+<!--darkmodejs -->
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+
+    function pjax_initCopyCode() {
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        var clipboard = new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+                return trigger.nextElementSibling
+            }
+        });
+        clipboard.on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+</script>
+
+
+<!--scrollreveal -->
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    function pjax_scrollrebeal() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    }
+
+    $(function () {
+      pjax_scrollrebeal();
+    });
+  </script>
+
+<!-- ******************************** -->
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  function pjax_fancybox() {
+    $(".article-entry").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".article-entry").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  $(function () {
+    pjax_fancybox();
+  });
+</script>
+
+<!-- ******************************** -->
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+
+  
+    
+<script src="/js/search.js"></script>
+
+  
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+
+
+
+
+
+
+    
+      
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+<!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+</div>
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#pjax-container"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+  
+    document.addEventListener('pjax:send', function (e) {
+      window.stop(); // 相当于点击了浏览器的停止按钮
+      var currentUrl = window.location.pathname;
+      var targetUrl = e.triggerElement.href;
+      var banUrl = [""];
+      if (banUrl[0] != "") {
+        banUrl.forEach(item => {
+          if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+            window.location.href = targetUrl;
+          }
+        });
+      }
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      $.fancybox.close();    // 关闭弹窗
+      $('.nav-main').find('.list-v').not('.menu-phone').css("display","none"); // 移除小尾巴
+      $('.menu-phone.list-v').css("display","none"); // 移除小尾巴
+      $('.l_header .switcher .s-search').removeClass('active'); // 关闭移动端激活的搜索框
+      $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
+      $(window).unbind('resize');    // 解绑
+      $(window).unbind('scroll');    // 解绑
+      $(window).unbind('click');     // 解绑
+      $(document).unbind('scroll');  // 解绑
+      window.ShowLoading();
+    });
+  
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+      // 
+  
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+      
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+  
+      try{
+        pjax_fancybox();
+        
+          
+          if ('') {
+            $('').backstretch("resize");
+          } else {
+            $.backstretch("resize");
+          }
+        
+        
+          pjax_scrollrebeal();
+        
+        
+          pjax_initCopyCode();
+        
+        
+          pjax_valine();
+        
+        
+        
+      } catch (e) {
+        console.log(e);
+      }
+      window.HideLoading();
+    });
+  
+    document.addEventListener('pjax:error', function (e) { 
+      window.HideLoading(); 
+      window.location.href = e.triggerElement.href; 
+    }); 
+</script>
+  
+    
+  </div>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: true,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var i=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){i&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,e,a=0;a<r.length;a++)t=r[a],e=void 0,0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+</html>

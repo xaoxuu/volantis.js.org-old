@@ -1,0 +1,2042 @@
+<!DOCTYPE html>
+<html>
+<head hexo-theme="https://volantis.js.org/#3.0-beta">
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+  <title>标签插件 - Volantis</title>
+  
+
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="Volantis">
+  
+
+  <!-- import meta -->
+  
+    
+      <meta name="theme-color" content="#FFFFFF">
+    
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+  
+
+  
+
+  <!-- import link -->
+  
+  
+  <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="/assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/favicon/favicon_180.png">
+  <link rel="mask-icon" color="#1BC3FB" href="/assets/favicon/favicon_180.png">
+  <link rel="manifest" href="/manifest.json">
+  
+
+  
+  
+    
+<link rel="stylesheet" href="/css/style.css">
+
+  
+
+  
+  
+</head>
+
+<body>
+  
+  
+  
+  <div class="cover-wrapper">
+    <cover class="cover page" style="display: none;">
+      <div class="cover-body">
+  <div class="a">
+    
+    
+      <p class="title">Volantis</p>
+    
+    
+      <p class="subtitle">A Wonderful Theme for Hexo</p>
+    
+  </div>
+  <div class="b">
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="搜索文档">
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
+    <div class="menu navigation">
+      <ul class="cover-list-h">
+        
+          
+            <li>
+              <a class="nav home" href="/v3/getting-started/" id="v3getting-started">
+                <i class="fas fa-book fa-fw"></i>文档
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/archives/" id="archives">
+                <i class="fas fa-rss fa-fw"></i>博文
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/examples/" id="examples">
+                <i class="fas fa-play-circle fa-fw"></i>示例
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="https://github.com/theme-volantis/hexo-theme-volantis/" rel="external nofollow noopener noreferrer" target="_blank" id="https:githubcomtheme-volantishexo-theme-volantis">
+                <i class="fas fa-file-code fa-fw"></i>源码
+              </a>
+            </li>
+          
+            <li>
+              <a class="nav home" href="/contributors/" id="contributors">
+                <i class="fas fa-handshake fa-fw"></i>鸣谢
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+      <div class="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+    </cover>
+    <header class="l_header shadow blur">
+  <div class="container">
+  <div class="wrapper">
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href="/">
+          
+          
+          
+          
+            VOLANTIS <b><sup style="color:#ff9800">3.0-beta</sup></b>
+          
+        </a>
+      
+
+			<div class="menu navigation">
+				<ul class="nav-list-h">
+          
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/v3/getting-started/" id="v3getting-started">
+                  <i class="fas fa-flag fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-book fa-fw"></i>文档
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/site-settings/" id="v3site-settings">
+                  <i class="fas fa-globe-asia fa-fw"></i>站点配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/theme-settings/" id="v3theme-settings">
+                  <i class="fas fa-palette fa-fw"></i>主题配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/page-settings/" id="v3page-settings">
+                  <i class="fas fa-file-alt fa-fw"></i>页面配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/tag-plugins/" id="v3tag-plugins">
+                  <i class="fas fa-pen-alt fa-fw"></i>标签插件
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/advanced-settings/" id="v3advanced-settings">
+                  <i class="fas fa-flask fa-fw"></i>进阶设定
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/faqs/" id="faqs">
+                  <i class="fas fa-question-circle fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/examples/" id="examples">
+                  <i class="fas fa-play-circle fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/contributors/" id="contributors">
+                  <i class="fas fa-handshake fa-fw"></i>鸣谢
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/volantis-docs/" id="https:githubcomtheme-volantisvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/" id="https:githubcomtheme-volantishexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" id="https:githubcomtheme-volantishexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  公告和测试
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
+
+			<ul class="switcher nav-list-h">
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/v3/getting-started/" id="v3getting-started">
+                  <i class="fas fa-flag fa-fw"></i>开始
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-book fa-fw"></i>文档
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/site-settings/" id="v3site-settings">
+                  <i class="fas fa-globe-asia fa-fw"></i>站点配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/theme-settings/" id="v3theme-settings">
+                  <i class="fas fa-palette fa-fw"></i>主题配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/page-settings/" id="v3page-settings">
+                  <i class="fas fa-file-alt fa-fw"></i>页面配置
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/tag-plugins/" id="v3tag-plugins">
+                  <i class="fas fa-pen-alt fa-fw"></i>标签插件
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v3/advanced-settings/" id="v3advanced-settings">
+                  <i class="fas fa-flask fa-fw"></i>进阶设定
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/faqs/" id="faqs">
+                  <i class="fas fa-question-circle fa-fw"></i>帮助
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/examples/" id="examples">
+                  <i class="fas fa-play-circle fa-fw"></i>示例
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/contributors/" id="contributors">
+                  <i class="fas fa-handshake fa-fw"></i>鸣谢
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box">
+                  <i class="fas fa-ellipsis-v fa-fw"></i>更多
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/volantis-docs/" id="https:githubcomtheme-volantisvolantis-docs" rel="external nofollow noopener noreferrer" target="_blank">
+                  本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/" id="https:githubcomtheme-volantishexo-theme-volantis" rel="external nofollow noopener noreferrer" target="_blank">
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" id="https:githubcomtheme-volantishexo-theme-volantisreleases" rel="external nofollow noopener noreferrer" target="_blank">
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  公告和测试
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="flat-box" href="/v2/getting-started/" id="v2getting-started">
+                  旧版文档 v2
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+  </div>
+  
+
+  <div class="l_body nocover">
+    <div class="body-wrapper" id="pjax-container">
+      
+        <!--此文件用来存放一些不方便取值的变量-->
+<!--思路大概是将值藏到重加载的区域内-->
+
+
+
+<div id="pjax-data" style="display: none">
+  <div id="pjax-ispage">false</div>
+  <div id="pjax-pageTitle"></div>
+  <div id="pjax-enable-cover">true</div>
+  
+  <div id="valine-path">none</div>
+  <div id="valine-placeholder">none</div>
+  
+  
+</div>
+
+
+<script>
+  // 处理封面 此时 jquery 还没加载
+  if ("none" == "none") { // 移除封面
+    document.getElementsByClassName('cover')[0].style.display = "none";
+    document.getElementsByClassName('l_body')[0].classList.add("nocover");
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.add("show");
+  } else {
+    if ("none" == "blog") { // 半屏
+      document.getElementsByClassName('cover')[0].classList.remove("full");
+      document.getElementsByClassName('cover')[0].classList.add("half");
+      document.getElementsByClassName('scroll-down')[0].style.display = "none";
+    } else if ("none" == "docs") { // 全屏
+      document.getElementsByClassName('cover')[0].classList.remove("half");
+      document.getElementsByClassName('cover')[0].classList.add("full");
+      document.getElementsByClassName('scroll-down')[0].style.display = "";
+    }
+    document.getElementsByClassName('cover')[0].style.display = "";
+    document.getElementsByClassName('l_body', 'show')[0].classList.remove("nocover");
+    document.getElementsByClassName('l_header', 'cover-wrapper')[0].classList.remove("show");
+  }
+</script>
+
+      
+      
+
+<div class="l_main">
+  
+
+  
+    <article id="page" class="post white-box reveal blur article-type-page" itemscope itemprop="blogPost">
+      
+
+
+  <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          
+  <h1 class="title">
+    <a href="/v3/tag-plugins/">
+      标签插件
+    </a>
+  </h1>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              
+<div class="new-meta-item author">
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img no-lazy src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-07-06T04:02:07+00:00">
+  <a class="notlink">
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>本页文档最后更新于：2020年7月6日</p>
+  </a>
+</div>
+
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <p>主题原生支持<b><span class="p red">丰</span><span class="p yellow">富</span><span class="p green">多</span><span class="p blue">彩</span></b>的标签。</p>
+<h2 id="文本和段落"><a href="#文本和段落" class="headerlink" title="文本和段落"></a>文本和段落</h2><h3 id="Span-amp-P"><a href="#Span-amp-P" class="headerlink" title="Span &amp; P"></a>Span &amp; P</h3><p>请将您的 Volantis 升级至 <u>2.5</u> 版本以上使用。</p>
+<div class="tabs" id="span-p"><ul class="nav-tabs"><li class="tab"><a href="#span-p-1">语法格式</a></li><li class="tab"><a href="#span-p-2">参数列表</a></li><li class="tab"><a href="#span-p-3">示例写法</a></li><li class="tab active"><a href="#span-p-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="span-p-1"><p class="p subtitle">行内文本</p>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% span 样式参数, 文本内容 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">独立段落</p>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% p 样式参数, 文本内容 %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="span-p-2"><p>样式参数位置可以写颜色、大小和对齐方向，多个样式参数用空格隔开。</p>
+<p class="p subtitle">字体</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">logo, code</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">颜色</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">red, yellow, green, cyan, blue, gray</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">大小</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">small, h4, h3, h2, h1, large, huge, ultra</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">对齐方向</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">left, center, right</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="span-p-3"><p class="p subtitle">彩色文字</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">在一段话中方便插入各种颜色的标签，包括：&#123;% span red, 红色 %&#125;、&#123;% span yellow, 黄色 %&#125;、&#123;% span green, 绿色 %&#125;、&#123;% span cyan, 青色 %&#125;、&#123;% span blue, 蓝色 %&#125;、&#123;% span gray, 灰色 %&#125;。</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">超大文字</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">文档「开始」页面中的标题部分就是超大文字。</span><br><span class="line"></span><br><span class="line">&#123;% p center logo large, Volantis %&#125;</span><br><span class="line">&#123;% p center small, A Wonderful Theme for Hexo %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="span-p-4"><p class="p subtitle">彩色文字</p>
+
+<p>在一段话中方便插入各种颜色的标签，包括：<span class="p red">红色</span>、<span class="p yellow">黄色</span>、<span class="p green">绿色</span>、<span class="p cyan">青色</span>、<span class="p blue">蓝色</span>、<span class="p gray">灰色</span>。</p>
+<p class="p subtitle">超大文字</p>
+
+<p>文档「开始」页面中的标题部分就是超大文字。</p>
+<p class="p center logo large">Volantis</p>
+<p class="p center small">A Wonderful Theme for Hexo</p></div></div></div>
+
+<h3 id="Note-amp-NoteBlock"><a href="#Note-amp-NoteBlock" class="headerlink" title="Note &amp; NoteBlock"></a>Note &amp; NoteBlock</h3><p>NoteBlock 是 Blockquote 的增强版，在左边显示图标，并且可以自定颜色。而 Note 是 NoteBlock 的简便写法。请将您的 Volantis 升级至 <u>2.3</u> 版本以上使用。</p>
+<div class="tabs" id="note"><ul class="nav-tabs"><li class="tab"><a href="#note-1">语法格式</a></li><li class="tab"><a href="#note-2">参数列表</a></li><li class="tab"><a href="#note-3">示例写法</a></li><li class="tab active"><a href="#note-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="note-1"><p class="p subtitle">Note</p>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note 样式参数, 文本内容 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">NoteBlock</p>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% noteblock 样式参数 %&#125;</span><br><span class="line"></span><br><span class="line">文本段落</span><br><span class="line"></span><br><span class="line">&#123;% endnoteblock %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="note-2"><p>样式参数位置可以写图标和颜色，多个样式参数用空格隔开。</p>
+<p class="p subtitle">图标</p>
+
+<figure class="highlight md"><figcaption><span>彩色的</span></figcaption><table><tr><td class="code"><pre><span class="line">quote, info, warning, done/success, error/danger</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight md"><figcaption><span>灰色的，也可以指定颜色</span></figcaption><table><tr><td class="code"><pre><span class="line">radiation, bug, idea, link, paperclip, todo, msg, guide, download, up, undo</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">颜色</p>
+
+<figure class="highlight md"><figcaption><span>指定颜色</span></figcaption><table><tr><td class="code"><pre><span class="line">clear, light, gray, red, yellow, green, cyan, blue</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="note-3"><p class="p subtitle">Note</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% note, 为简单的一句话提供的简便写法。 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success, 支持同样丰富的参数。 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">NoteBlock</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">可以在区块中放置一些复杂的结构，支持嵌套。</span><br><span class="line"></span><br><span class="line">&#123;% noteblock quote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% p subtitle, 小标题 %&#125;</span><br><span class="line"></span><br><span class="line">Windows 10不是為所有人設計,而是為每個人設計</span><br><span class="line"></span><br><span class="line">&#123;% p subtitle, 嵌套测试 %&#125;</span><br><span class="line">&#123;% noteblock %&#125;</span><br><span class="line">请坐和放宽，我正在帮你搞定一切...</span><br><span class="line">&#123;% endnoteblock %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% p subtitle, Folding 测试 %&#125;</span><br><span class="line">&#123;% folding 点击查看更多 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning, 不要说我们没有警告过你 %&#125;</span><br><span class="line">&#123;% noteblock bug red %&#125;</span><br><span class="line">我们都有不顺利的时候</span><br><span class="line">&#123;% endnoteblock %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line">&#123;% endnoteblock %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="note-4"><p class="p subtitle">Note</p>
+
+<div class="note "><p>为简单的一句话提供的简便写法。</p></div>
+
+<div class="note success"><p>支持同样丰富的参数。</p></div>
+
+<p class="p subtitle">NoteBlock</p>
+
+<p>可以在区块中放置一些复杂的结构，支持嵌套。</p>
+<div class="note quote">
+            <p class="p subtitle">小标题</p><p>Windows 10不是為所有人設計,而是為每個人設計</p><p class="p subtitle">嵌套测试</p><div class="note ">            <p>请坐和放宽，我正在帮你搞定一切...</p>          </div><p class="p subtitle">Folding 测试</p><details><summary> <p>点击查看更多</p> </summary>              <div class="content">              <div class="note warning"><p>不要说我们没有警告过你</p></div><div class="note bug red">            <p>我们都有不顺利的时候</p>          </div>              </div>            </details>
+          </div></div></div></div>
+
+
+<h3 id="Checkbox-amp-Radio"><a href="#Checkbox-amp-Radio" class="headerlink" title="Checkbox &amp; Radio"></a>Checkbox &amp; Radio</h3><p>请将您的 Volantis 升级至 <u>2.6</u> 版本以上使用。</p>
+<div class="tabs" id="btn"><ul class="nav-tabs"><li class="tab"><a href="#btn-1">语法格式</a></li><li class="tab"><a href="#btn-2">参数列表</a></li><li class="tab"><a href="#btn-3">示例写法</a></li><li class="tab active"><a href="#btn-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="btn-1"><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% checkbox 样式参数（可选）, 文本（支持简单md） %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="btn-2"><p class="p subtitle">颜色</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">red, yellow, green, cyan, blue</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">样式</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">plus, minus, times</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">选中状态</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">checked</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="btn-3"><p class="p subtitle">Checkbox</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% checkbox 纯文本测试 %&#125;</span><br><span class="line">&#123;% checkbox checked, 支持简单的 [<span class="string">markdown</span>](<span class="link">https://guides.github.com/features/mastering-markdown/</span>) 语法 %&#125;</span><br><span class="line">&#123;% checkbox red, 支持自定义颜色 %&#125;</span><br><span class="line">&#123;% checkbox green checked, 绿色 + 默认选中 %&#125;</span><br><span class="line">&#123;% checkbox yellow checked, 黄色 + 默认选中 %&#125;</span><br><span class="line">&#123;% checkbox cyan checked, 青色 + 默认选中 %&#125;</span><br><span class="line">&#123;% checkbox blue checked, 蓝色 + 默认选中 %&#125;</span><br><span class="line">&#123;% checkbox plus green checked, 增加 %&#125;</span><br><span class="line">&#123;% checkbox minus yellow checked, 减少 %&#125;</span><br><span class="line">&#123;% checkbox times red checked, 叉 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">Radio</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% radio 纯文本测试 %&#125;</span><br><span class="line">&#123;% radio checked, 支持简单的 [<span class="string">markdown</span>](<span class="link">https://guides.github.com/features/mastering-markdown/</span>) 语法 %&#125;</span><br><span class="line">&#123;% radio red, 支持自定义颜色 %&#125;</span><br><span class="line">&#123;% radio green, 绿色 %&#125;</span><br><span class="line">&#123;% radio yellow, 黄色 %&#125;</span><br><span class="line">&#123;% radio cyan, 青色 %&#125;</span><br><span class="line">&#123;% radio blue, 蓝色 %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="btn-4"><p class="p subtitle">Checkbox</p>
+
+<div class="checkbox"><input type="checkbox">
+            <p>纯文本测试</p>
+            </div>
+<div class="checkbox checked"><input type="checkbox" checked="checked">
+            <p>支持简单的 <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external nofollow noopener noreferrer">markdown</a> 语法</p>
+            </div>
+<div class="checkbox red"><input type="checkbox">
+            <p>支持自定义颜色</p>
+            </div>
+<div class="checkbox green checked"><input type="checkbox" checked="checked">
+            <p>绿色 + 默认选中</p>
+            </div>
+<div class="checkbox yellow checked"><input type="checkbox" checked="checked">
+            <p>黄色 + 默认选中</p>
+            </div>
+<div class="checkbox cyan checked"><input type="checkbox" checked="checked">
+            <p>青色 + 默认选中</p>
+            </div>
+<div class="checkbox blue checked"><input type="checkbox" checked="checked">
+            <p>蓝色 + 默认选中</p>
+            </div>
+<div class="checkbox plus green checked"><input type="checkbox" checked="checked">
+            <p>增加</p>
+            </div>
+<div class="checkbox minus yellow checked"><input type="checkbox" checked="checked">
+            <p>减少</p>
+            </div>
+<div class="checkbox times red checked"><input type="checkbox" checked="checked">
+            <p>叉</p>
+            </div>
+
+<p class="p subtitle">Radio</p>
+
+<div class="checkbox"><input type="radio">
+            <p>纯文本测试</p>
+            </div>
+<div class="checkbox checked"><input type="radio" checked="checked">
+            <p>支持简单的 <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external nofollow noopener noreferrer">markdown</a> 语法</p>
+            </div>
+<div class="checkbox red"><input type="radio">
+            <p>支持自定义颜色</p>
+            </div>
+<div class="checkbox green"><input type="radio">
+            <p>绿色</p>
+            </div>
+<div class="checkbox yellow"><input type="radio">
+            <p>黄色</p>
+            </div>
+<div class="checkbox cyan"><input type="radio">
+            <p>青色</p>
+            </div>
+<div class="checkbox blue"><input type="radio">
+            <p>蓝色</p>
+            </div></div></div></div>
+
+
+<h2 id="按钮和菜单"><a href="#按钮和菜单" class="headerlink" title="按钮和菜单"></a>按钮和菜单</h2><h3 id="基础按钮"><a href="#基础按钮" class="headerlink" title="基础按钮"></a>基础按钮</h3><p>请将您的 Volantis 升级至 <u>2.4</u> 版本以上使用。</p>
+<div class="tabs" id="btn"><ul class="nav-tabs"><li class="tab"><a href="#btn-1">语法格式</a></li><li class="tab"><a href="#btn-2">参数列表</a></li><li class="tab"><a href="#btn-3">示例写法</a></li><li class="tab active"><a href="#btn-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="btn-1"><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn 样式参数（可选）, 标题, 链接, 图标（可选） %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note warning"><p>可选的参数可以省略，但是前后顺序不能乱。</p></div></div><div class="tab-pane" id="btn-2"><p class="p subtitle">样式参数</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">regular, large, center</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">图标</p>
+
+<p>第1个或者第2个参数包含 <code>fa-</code> 的那个被识别为图标。</p></div><div class="tab-pane" id="btn-3"><figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">不设置任何参数的 &#123;% btn 按钮, / %&#125; 适合融入段落中。</span><br><span class="line"></span><br><span class="line">regular 按钮适合独立于段落之外：</span><br><span class="line"></span><br><span class="line">&#123;% btn regular, 示例博客, https://xaoxuu.com, fas fa-play-circle %&#125;</span><br><span class="line"></span><br><span class="line">large 按钮更具有强调作用，建议搭配 center 使用：</span><br><span class="line"></span><br><span class="line">&#123;% btn center large, 开始使用, https://volantis.js.org/v3/getting-started/, fas fa-download %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="btn-4"><p>不设置任何参数的 <span class="btn"><a href="/" title="按钮">按钮</a></span> 适合融入段落中。</p>
+<p>regular 按钮适合独立于段落之外：</p>
+<p><span class="btn regular"><a href="https://xaoxuu.com" target="_blank" rel="noopener" title="示例博客"><i class="fas fa-play-circle"></i>示例博客</a></span></p>
+<p>large 按钮更具有强调作用，建议搭配 center 使用：</p>
+<p><span class="btn center large"><a href="https://volantis.js.org/v3/getting-started/" title="开始使用"><i class="fas fa-download"></i>开始使用</a></span></p></div></div></div>
+
+
+<h3 id="富文本按钮"><a href="#富文本按钮" class="headerlink" title="富文本按钮"></a>富文本按钮</h3><p>请将您的 Volantis 升级至 <u>2.3</u> 版本以上使用。</p>
+<div class="tabs" id="btns"><ul class="nav-tabs"><li class="tab"><a href="#btns-1">语法格式</a></li><li class="tab"><a href="#btns-2">参数列表</a></li><li class="tab"><a href="#btns-3">示例写法</a></li><li class="tab active"><a href="#btns-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="btns-1"><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btns 样式参数 %&#125;</span><br><span class="line">&#123;% cell 标题, 链接, 图片或者图标 %&#125;</span><br><span class="line">&#123;% cell 标题, 链接, 图片或者图标 %&#125;</span><br><span class="line">&#123;% endbtns %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="btns-2"><p>样式参数位置可以写图片样式、布局方式，多个样式参数用空格隔开。</p>
+<p class="p subtitle">圆角样式</p>
+
+<p>默认为方形</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">rounded, circle</span><br></pre></td></tr></table></figure>
+
+
+<p class="p subtitle">布局方式</p>
+
+<p>默认为自动宽度，适合视野内只有一两个的情况。</p>
+<table>
+<thead>
+<tr>
+<th align="left">参数</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">wide</td>
+<td align="left">宽一点的按钮</td>
+</tr>
+<tr>
+<td align="left">fill</td>
+<td align="left">填充布局，自动铺满至少一行，多了会换行。</td>
+</tr>
+<tr>
+<td align="left">center</td>
+<td align="left">居中，按钮之间是固定间距。</td>
+</tr>
+<tr>
+<td align="left">around</td>
+<td align="left">居中分散</td>
+</tr>
+<tr>
+<td align="left">grid2</td>
+<td align="left">等宽最多2列，屏幕变窄会适当减少列数。</td>
+</tr>
+<tr>
+<td align="left">grid3</td>
+<td align="left">等宽最多3列，屏幕变窄会适当减少列数。</td>
+</tr>
+<tr>
+<td align="left">grid4</td>
+<td align="left">等宽最多4列，屏幕变窄会适当减少列数。</td>
+</tr>
+<tr>
+<td align="left">grid5</td>
+<td align="left">等宽最多5列，屏幕变窄会适当减少列数。</td>
+</tr>
+</tbody></table>
+<p class="p subtitle">增加文字样式</p>
+
+<p>可以在容器内增加 <code>&lt;b&gt;标题&lt;/b&gt;</code> 和 <code>&lt;p&gt;描述文字&lt;/p&gt;</code></p></div><div class="tab-pane" id="btns-3"><p>如果需要显示类似「团队成员」之类的一组含有头像的链接：</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% btns circle grid5 %&#125;</span><br><span class="line">&#123;% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %&#125;</span><br><span class="line">&#123;% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %&#125;</span><br><span class="line">&#123;% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %&#125;</span><br><span class="line">&#123;% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %&#125;</span><br><span class="line">&#123;% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %&#125;</span><br><span class="line">&#123;% endbtns %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>或者含有图标的按钮：</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% btns rounded grid5 %&#125;</span><br><span class="line">&#123;% cell 下载源码, /, fas fa-download %&#125;</span><br><span class="line">&#123;% cell 查看文档, /, fas fa-book-open %&#125;</span><br><span class="line">&#123;% endbtns %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>圆形图标 + 标题 + 描述 + 图片 + 网格5列 + 居中</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% btns circle center grid5 %&#125;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">'https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'</span>&gt;</span></span></span><br><span class="line">  <span class="xml"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">'fab fa-apple'</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span></span><br><span class="line">  <span class="xml"><span class="tag">&lt;<span class="name">b</span>&gt;</span></span>心率管家<span class="xml"><span class="tag">&lt;/<span class="name">b</span>&gt;</span></span></span><br><span class="line">  &#123;% p red, 专业版 %&#125;</span><br><span class="line">  <span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_pro.png'</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">'https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1'</span>&gt;</span></span></span><br><span class="line">  <span class="xml"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">'fab fa-apple'</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span></span><br><span class="line">  <span class="xml"><span class="tag">&lt;<span class="name">b</span>&gt;</span></span>心率管家<span class="xml"><span class="tag">&lt;/<span class="name">b</span>&gt;</span></span></span><br><span class="line">  &#123;% p green, 免费版 %&#125;</span><br><span class="line">  <span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_lite.png'</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br><span class="line">&#123;% endbtns %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="btns-4"><p>如果需要显示类似「团队成员」之类的一组含有头像的链接：</p>
+<div class="btns circle grid5">
+            <a href="https://xaoxuu.com" target="_blank" rel="noopener" title="xaoxuu"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">xaoxuu</a>
+<a href="https://xaoxuu.com" target="_blank" rel="noopener" title="xaoxuu"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">xaoxuu</a>
+<a href="https://xaoxuu.com" target="_blank" rel="noopener" title="xaoxuu"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">xaoxuu</a>
+<a href="https://xaoxuu.com" target="_blank" rel="noopener" title="xaoxuu"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">xaoxuu</a>
+<a href="https://xaoxuu.com" target="_blank" rel="noopener" title="xaoxuu"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">xaoxuu</a>
+          </div>
+
+<p>或者含有图标的按钮：</p>
+<div class="btns rounded grid5">
+            <a href="/" title="下载源码"><i class="fas fa-download"></i>下载源码</a>
+<a href="/" title="查看文档"><i class="fas fa-book-open"></i>查看文档</a>
+          </div>
+
+
+<p>圆形图标 + 标题 + 描述 + 图片 + 网格5列 + 居中</p>
+<div class="btns circle center grid5">
+            <a href="https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1" target="_blank" rel="external nofollow noopener noreferrer">
+  <i class="fab fa-apple"></i>
+  <b>心率管家</b>
+  <p class="p red">专业版</p>
+  <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_pro.png">
+</a>
+<a href="https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1" target="_blank" rel="external nofollow noopener noreferrer">
+  <i class="fab fa-apple"></i>
+  <b>心率管家</b>
+  <p class="p green">免费版</p>
+  <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_lite.png">
+</a>
+          </div></div></div></div>
+
+
+<h3 id="Menu"><a href="#Menu" class="headerlink" title="Menu"></a>Menu</h3><p>请将您的 Volantis 升级至 <u>2.4</u> 版本以上使用。</p>
+<div class="tabs" id="menu"><ul class="nav-tabs"><li class="tab"><a href="#menu-1">语法格式</a></li><li class="tab"><a href="#menu-2">示例写法</a></li><li class="tab active"><a href="#menu-3">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="menu-1"><p class="p subtitle">容器</p>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% menu 下拉菜单, 图标 %&#125;</span><br><span class="line">菜单内容</span><br><span class="line">&#123;% endmenu %&#125;</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">菜单内容</p>
+
+<p>菜单项</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% menuitem 文本, 链接, 图标 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>分割线</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% menuitem hr %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>子菜单</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% submenu 嵌套菜单, 图标 %&#125;</span><br><span class="line">菜单内容</span><br><span class="line">&#123;% endsubmenu %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="menu-2"><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% menu 下拉菜单 %&#125;</span><br><span class="line">&#123;% menuitem 主题源码, https://github.com/theme-volantis/hexo-theme-volantis/, fas fa-file-code %&#125;</span><br><span class="line">&#123;% menuitem 更新日志, https://github.com/theme-volantis/hexo-theme-volantis/releases/, fas fa-clipboard-list %&#125;</span><br><span class="line">&#123;% menuitem hr %&#125;</span><br><span class="line">&#123;% submenu 有疑问？, fas fa-question-circle %&#125;</span><br><span class="line">&#123;% menuitem 看 FAQ, /faqs/ %&#125;</span><br><span class="line">&#123;% menuitem 看 本站源码, https://github.com/theme-volantis/volantis-docs/ %&#125;</span><br><span class="line">&#123;% menuitem 提 Issue, https://github.com/theme-volantis/hexo-theme-volantis/issues/ %&#125;</span><br><span class="line">&#123;% endsubmenu %&#125;</span><br><span class="line">&#123;% endmenu %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="menu-3"><div class="dropmenu">
+              <span>下拉菜单</span>
+              <i class="fas fa-caret-down"></i>
+              <ul class="list-v">
+                <li>
+                <a href="https://github.com/theme-volantis/hexo-theme-volantis/" target="_blank" rel="external nofollow noopener noreferrer" title="主题源码">
+                  <i class="fas fa-file-code fa-fw"></i>
+                  主题源码
+                </a>
+              </li>
+<li>
+                <a href="https://github.com/theme-volantis/hexo-theme-volantis/releases/" target="_blank" rel="external nofollow noopener noreferrer" title="更新日志">
+                  <i class="fas fa-clipboard-list fa-fw"></i>
+                  更新日志
+                </a>
+              </li>
+<hr>
+<li>
+              <a>
+                <i class=" fas fa-question-circle fa-fw"></i>
+                有疑问？
+              </a>
+              <ul class="list-v">
+                <li>
+                <a href="/faqs/" title="看 FAQ">
+                  看 FAQ
+                </a>
+              </li>
+<li>
+                <a href="https://github.com/theme-volantis/volantis-docs/" target="_blank" rel="external nofollow noopener noreferrer" title="看 本站源码">
+                  看 本站源码
+                </a>
+              </li>
+<li>
+                <a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/" target="_blank" rel="external nofollow noopener noreferrer" title="提 Issue">
+                  提 Issue
+                </a>
+              </li>
+              </ul>
+            </li>
+              </ul>
+            </div></div></div></div>
+
+
+<h2 id="容器"><a href="#容器" class="headerlink" title="容器"></a>容器</h2><h3 id="Tab"><a href="#Tab" class="headerlink" title="Tab"></a>Tab</h3><p>此插件移植自 <a href="https://theme-next.org/docs/tag-plugins/tabs" target="_blank" rel="external nofollow noopener noreferrer">NexT #tabs</a> 。请将您的 Volantis 升级至 <u>2.1</u> 版本以上使用。</p>
+<div class="tabs" id="tab-id"><ul class="nav-tabs"><li class="tab active"><a href="#tab-id-1">语法格式</a></li><li class="tab"><a href="#tab-id-2">参数列表</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% tabs tab-id %&#125;</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- tab tab-name --&gt;</span></span></span><br><span class="line"></span><br><span class="line">![](https://i.loli.net/2020/03/18/f5PQlWisvm9zbgK.jpg)</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- endtab --&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- tab tab-name --&gt;</span></span></span><br><span class="line"></span><br><span class="line">这里面写内容，支持的语法格式有限，请尽量<span class="xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>不要<span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span>写太过复杂的东西。</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="comment">&lt;!-- endtab --&gt;</span></span></span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="tab-id-2"><p class="p subtitle">tab-id</p>
+
+<p>必填，如果一个页面有多个 tabs 时，tab-id 不能重复。</p>
+<p class="p subtitle">tab-name</p>
+
+<p>标签文本。</p></div></div></div>
+
+
+<h3 id="Folding"><a href="#Folding" class="headerlink" title="Folding"></a>Folding</h3><p>请将您的 Volantis 升级至 <u>2.3</u> 版本以上使用。</p>
+<div class="tabs" id="folding"><ul class="nav-tabs"><li class="tab"><a href="#folding-1">语法格式</a></li><li class="tab"><a href="#folding-2">参数列表</a></li><li class="tab"><a href="#folding-3">示例写法</a></li><li class="tab active"><a href="#folding-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="folding-1"><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% folding 参数（可选）, 标题 %&#125;</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg)</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="folding-2"><p>参数位置可以填写颜色和状态，多个参数用空格隔开。</p>
+<p class="p subtitle">颜色</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">blue, cyan, green, yellow, red</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">状态</p>
+
+<p>状态填写 <code>open</code> 代表默认打开。</p></div><div class="tab-pane" id="folding-3"><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% folding 查看图片测试 %&#125;</span><br><span class="line"></span><br><span class="line">![](https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;xaoxuu&#x2F;cdn-wallpaper&#x2F;abstract&#x2F;41F215B9-261F-48B4-80B5-4E86E165259E.jpeg)</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding cyan open, 查看默认打开的折叠框 %&#125;</span><br><span class="line"></span><br><span class="line">这是一个默认打开的折叠框。</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding green, 查看代码测试 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding yellow, 查看列表测试 %&#125;</span><br><span class="line"></span><br><span class="line">- haha</span><br><span class="line">- hehe</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding red, 查看嵌套测试 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding blue, 查看嵌套测试2 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding 查看嵌套测试3 %&#125;</span><br><span class="line"></span><br><span class="line">hahaha &lt;span&gt;&lt;img src&#x3D;&#39;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;xaoxuu&#x2F;cdn-assets&#x2F;emoji&#x2F;tieba&#x2F;%E6%BB%91%E7%A8%BD.png&#39; style&#x3D;&#39;height:24px&#39;&gt;&lt;&#x2F;span&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="folding-4"><details><summary> <p>查看图片测试</p> </summary>
+              <div class="content">
+              <p><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg" alt></p>
+              </div>
+            </details>
+
+<details cyan open><summary> <p>查看默认打开的折叠框</p> </summary>
+              <div class="content">
+              <p>这是一个默认打开的折叠框。</p>
+              </div>
+            </details>
+
+<details green><summary> <p>查看代码测试</p> </summary>
+              <div class="content">
+              <figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% folding green, 查看代码测试 %&#125;</span><br><span class="line"></span><br><span class="line">查看代码测试</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details yellow><summary> <p>查看列表测试</p> </summary>
+              <div class="content">
+              <ul><li>haha</li><li>hehe</li></ul>
+              </div>
+            </details>
+
+<details red><summary> <p>查看嵌套测试</p> </summary>
+              <div class="content">
+              <details blue><summary> <p>查看嵌套测试2</p> </summary>              <div class="content">              <details><summary> <p>查看嵌套测试3</p> </summary>              <div class="content">              <p>hahaha <span><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/tieba/%E6%BB%91%E7%A8%BD.png" style="height:24px"></span></p>              </div>            </details>              </div>            </details>
+              </div>
+            </details></div></div></div>
+
+
+<h2 id="多媒体"><a href="#多媒体" class="headerlink" title="多媒体"></a>多媒体</h2><p>包括图片、音频、视频。</p>
+<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p>Image 标签是一种针对单个图片应用场景的标签，支持图片描述文字和指定宽度。请将您的 Volantis 升级至 <u>2.6</u> 版本以上使用。</p>
+<div class="tabs" id="fancybox"><ul class="nav-tabs"><li class="tab active"><a href="#fancybox-1">语法格式</a></li><li class="tab"><a href="#fancybox-2">参数列表</a></li><li class="tab"><a href="#fancybox-3">示例写法</a></li><li class="tab"><a href="#fancybox-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane active" id="fancybox-1"><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% image 链接, 宽度（可选）, 描述（可选） %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="fancybox-2"><p class="p subtitle">图片宽度</p>
+
+<p>阿拉伯数字 + px</p>
+<figure class="highlight md"><figcaption><span>example:</span></figcaption><table><tr><td class="code"><pre><span class="line">300px</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">图片描述</p>
+
+<p>纯文本，不能包含引号。</p></div><div class="tab-pane" id="fancybox-3"><figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">添加描述：</span><br><span class="line"></span><br><span class="line">&#123;% image https://i.loli.net/2020/04/06/zdeQiOY9rBCjhDR.jpg, 每天下课回宿舍的路，承载了太多记忆。 %&#125;</span><br><span class="line"></span><br><span class="line">指定宽度：</span><br><span class="line"></span><br><span class="line">&#123;% image https://i.loli.net/2020/04/06/zdeQiOY9rBCjhDR.jpg, 300px %&#125;</span><br><span class="line"></span><br><span class="line">指定宽度并添加描述：</span><br><span class="line"></span><br><span class="line">&#123;% image https://i.loli.net/2020/04/06/zdeQiOY9rBCjhDR.jpg, 300px, 每天下课回宿舍的路，承载了太多记忆。 %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="fancybox-4"><p>添加描述：</p>
+<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/06/zdeQiOY9rBCjhDR.jpg" alt="每天下课回宿舍的路，承载了太多记忆。">
+
+<p>指定宽度：</p>
+<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/06/zdeQiOY9rBCjhDR.jpg" style="width:300px">
+
+<p>指定宽度并添加描述：</p>
+<img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://i.loli.net/2020/04/06/zdeQiOY9rBCjhDR.jpg" alt="每天下课回宿舍的路，承载了太多记忆。" style="width:300px"></div></div></div>
+
+
+<h3 id="Fancybox"><a href="#Fancybox" class="headerlink" title="Fancybox"></a>Fancybox</h3><p>Fancybox 标签是一种针对一组图片应用场景的标签。请将您的 Volantis 升级至 <u>2.2</u> 版本以上使用。</p>
+<div class="tabs" id="fancybox"><ul class="nav-tabs"><li class="tab"><a href="#fancybox-1">语法格式</a></li><li class="tab"><a href="#fancybox-2">参数列表</a></li><li class="tab"><a href="#fancybox-3">示例写法</a></li><li class="tab active"><a href="#fancybox-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="fancybox-1"><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% fancybox 参数, 列数 %&#125;</span><br><span class="line">![<span class="string">图片描述</span>](<span class="link">https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg</span>)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg)</span><br><span class="line">&#123;% endfancybox %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="fancybox-2"><p class="p subtitle">对齐方向</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">left, center, right</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">缩放</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">stretch</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">列数</p>
+
+<p>逗号后面直接写列数，支持 2 ～ 8 列。设定列列数之后就是「多行多图」布局，此时图片默认左对齐。为了避免图片大小不一，建议搭配 <code>stretch</code> 来时图片放大填充。</p></div><div class="tab-pane" id="fancybox-3"><p>一行一个图片</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% fancybox %&#125;</span><br><span class="line">![<span class="string">图片描述</span>](<span class="link">https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg</span>)</span><br><span class="line">&#123;% endfancybox %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>一行多个图片（不换行）</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% fancybox %&#125;</span><br><span class="line">![<span class="string">图片描述</span>](<span class="link">https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg</span>)</span><br><span class="line">![<span class="string">图片描述</span>](<span class="link">https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg</span>)</span><br><span class="line">![<span class="string">图片描述</span>](<span class="link">https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg</span>)</span><br><span class="line">&#123;% endfancybox %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>多行多个图片（每行2～8个图片）</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% fancybox stretch, 4 %&#125;</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg)</span><br><span class="line">![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg)</span><br><span class="line">&#123;% endfancybox %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="fancybox-4"><p>一行一个图片</p>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg" alt="图片描述"></p>
+            </div>
+
+<p>一行多个图片（不换行）</p>
+<div class="gallery ">
+              <p><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg" alt="图片描述"><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg" alt="图片描述"><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/00E0F0ED-9F1C-407A-9AA6-545649D919F4.jpeg" alt="图片描述"></p>
+            </div>
+
+<p>多行多个图片（每行2～8个图片）</p>
+<div class="gallery stretch" col="4">
+              <p><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B951AE18-D431-417F-B3FE-A382403FF21B.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/AEB33F9D-7294-4CF1-B8C5-3020748A9D45.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/250662D4-5A21-4AAA-BB63-CD25CF97CFF1.jpeg" alt><br><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/landscape/10A0FCE5-36A1-4AD0-8CF0-019259A89E03.jpeg" alt></p>
+            </div></div></div></div>
+
+<h3 id="Audio"><a href="#Audio" class="headerlink" title="Audio"></a>Audio</h3><p>请将您的 Volantis 升级至 <u>2.4</u> 版本以上使用。</p>
+<div class="tabs" id="audio"><ul class="nav-tabs"><li class="tab"><a href="#audio-1">语法格式</a></li><li class="tab"><a href="#audio-2">示例写法</a></li><li class="tab active"><a href="#audio-3">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane" id="audio-1"><figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% audio 音频链接 %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="audio-2"><figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% audio https://github.com/theme-volantis/volantis-docs/releases/download/assets/Lumia1020.mp3 %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane active" id="audio-3"><div class="audio"><audio controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/Lumia1020.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></div></div></div></div>
+
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><p>请将您的 Volantis 升级至 <u>2.3</u> 版本以上使用。</p>
+<div class="tabs" id="video"><ul class="nav-tabs"><li class="tab active"><a href="#video-1">语法格式</a></li><li class="tab"><a href="#video-2">参数列表</a></li><li class="tab"><a href="#video-3">示例写法</a></li><li class="tab"><a href="#video-4">示例效果</a></li></ul><div class="tab-content"><div class="tab-pane active" id="video-1"><p class="p subtitle">单个视频</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% video 视频链接 %&#125;</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">多个视频</p>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% videos 对齐方向, 列数 %&#125;</span><br><span class="line">&#123;% video 视频链接 %&#125;</span><br><span class="line">&#123;% video 视频链接 %&#125;</span><br><span class="line">&#123;% video 视频链接 %&#125;</span><br><span class="line">&#123;% endvideos %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="video-2"><p class="p subtitle">对齐方向</p>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">left, center, right</span><br></pre></td></tr></table></figure>
+
+<p class="p subtitle">列数</p>
+
+<p>逗号后面直接写列数，支持 1 ～ 4 列。</p></div><div class="tab-pane" id="video-3"><p>100%宽度</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>50%宽度</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% videos, 2 %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% endvideos %&#125;</span><br></pre></td></tr></table></figure>
+
+<p>25%宽度</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% videos, 4 %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% endvideos %&#125;</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="video-4"><p>100%宽度</p>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+
+<p>50%宽度</p>
+<div class="videos" col="2"><div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div></div>
+
+<p>25%宽度</p>
+<div class="videos" col="4"><div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div>
+<div class="video"><video controls preload><source src="https://github.com/theme-volantis/volantis-docs/releases/download/assets/IMG_0341.mov" type="video/mp4">Your browser does not support the video tag.</video></div></div></div></div></div>
+
+<h3 id="APlayer"><a href="#APlayer" class="headerlink" title="APlayer"></a>APlayer</h3><p>主题对 APlayer 插件的样式进行了兼容。安装插件：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm i -S hexo-tag-aplayer</span><br></pre></td></tr></table></figure>
+
+<div class="note link"><p>官方文档： <a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="external nofollow noopener noreferrer">hexo-tag-aplayer</a></p></div>
+
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><h3 id="MathJax公式"><a href="#MathJax公式" class="headerlink" title="MathJax公式"></a>MathJax公式</h3><p>默认是不渲染的，如果文章内有公式，需要在 front-matter 中设置开启。</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 渲染公式（MathJax）</span><br><span class="line">date: 2020-02-23</span><br><span class="line">mathjax: true # false: 不渲染, true: 渲染, internal: 只在文章内部渲染，文章列表中不渲染</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">$$t+1=2$$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\mbox&#123;积累因子&#125;=\begin&#123;cases&#125;</span><br><span class="line">1+ni &amp; \mbox&#123;单利&#125;\\\\</span><br><span class="line">(1+i)^n &amp; \mbox&#123;复利&#125;</span><br><span class="line">\end&#123;cases&#125;</span><br><span class="line">$$</span><br><span class="line"></span><br><span class="line">$$</span><br><span class="line">\begin&#123;equation&#125;</span><br><span class="line">\sum<span class="emphasis">_&#123;i=0&#125;^n F_</span>i \cdot \phi (H, p<span class="emphasis">_i) - \sum_</span>&#123;i=1&#125;^n a<span class="emphasis">_i \cdot ( \tilde&#123;x_</span>i&#125;, \tilde&#123;y<span class="emphasis">_i&#125;) + b_</span>i \cdot ( \tilde&#123;x<span class="emphasis">_i&#125;^2 , \tilde&#123;y_</span>i&#125;^2 )</span><br><span class="line">\end&#123;equation&#125;</span><br><span class="line">$$</span><br><span class="line">$$</span><br><span class="line">\begin&#123;equation&#125;</span><br><span class="line">\beta^*(D) = \mathop&#123;argmin&#125; \limits<span class="emphasis">_&#123;\beta&#125; \lambda &#123;||\beta||&#125;^2 + \sum_</span>&#123;i=1&#125;^n max(0, 1 - y<span class="emphasis">_i f_</span>&#123;\beta&#125;(x_i))</span><br><span class="line">\end&#123;equation&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+
+<details><summary> <p>示例效果</p> </summary>
+              <div class="content">
+              <p>$$t+1=2$$</p><p>$$<br>\mbox{积累因子}=\begin{cases}<br>1+ni &amp; \mbox{单利}\\<br>(1+i)^n &amp; \mbox{复利}<br>\end{cases}<br>$$</p><p>$$<br>\begin{equation}<br>\sum_{i=0}^n F_i \cdot \phi (H, p_i) - \sum_{i=1}^n a_i \cdot ( \tilde{x_i}, \tilde{y_i}) + b_i \cdot ( \tilde{x_i}^2 , \tilde{y_i}^2 )<br>\end{equation}<br>$$<br>$$<br>\begin{equation}<br>\beta^*(D) = \mathop{argmin} \limits_{\beta} \lambda {||\beta||}^2 + \sum_{i=1}^n max(0, 1 - y_i f_{\beta}(x_i))<br>\end{equation}<br>$$</p>
+              </div>
+            </details>
+
+<div class="note link"><p>如果公式仍无法正确渲染可以阅读 <a href="https://www.micdz.cn" target="_blank" rel="external nofollow noopener noreferrer">@MicDZ</a> 的这篇文章：<a href="https://www.micdz.cn/article/katex-on-volantis/" target="_blank" rel="external nofollow noopener noreferrer">《在material-x上使用KaTeX》</a>。</p></div>
+
+<h2 id="Hexo-标签"><a href="#Hexo-标签" class="headerlink" title="Hexo 标签"></a>Hexo 标签</h2><h3 id="引用块"><a href="#引用块" class="headerlink" title="引用块"></a>引用块</h3><p>引用书上的句子</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+<h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% codeblock [title] [lang:language] [url] [link text] [additional options] %&#125;</span><br><span class="line">code snippet</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="指定语言"><a href="#指定语言" class="headerlink" title="指定语言"></a>指定语言</h4><figure class="highlight objc"><table><tr><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% codeblock lang:objc %&#125;</span><br><span class="line">[rectangle setX: 10 y: 10 width: 20 height: 20];</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="附加说明"><a href="#附加说明" class="headerlink" title="附加说明"></a>附加说明</h4><figure class="highlight plain"><figcaption><span>Array.map</span></figcaption><table><tr><td class="code"><pre><span class="line">array.map(callback[, thisArg])</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% codeblock Array.map %&#125;</span><br><span class="line">array.map(callback[, thisArg])</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="行标、高亮"><a href="#行标、高亮" class="headerlink" title="行标、高亮"></a>行标、高亮</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">n=eval(input())</span><br><span class="line"><span class="keyword">if</span> n==<span class="number">0</span>:</span><br><span class="line marked">   print(<span class="string">"Hello World"</span>)</span><br><span class="line"><span class="keyword">elif</span> n&gt;<span class="number">0</span>:</span><br><span class="line marked">   print(<span class="string">"He\nll\no \nWo\nrl\nd"</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">   <span class="keyword">for</span> c <span class="keyword">in</span> <span class="string">"Hello World"</span>:</span><br><span class="line marked">   print(c)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% codeblock lang:python line_number:true mark:3,5,8 %&#125;</span><br><span class="line">n=eval(input())</span><br><span class="line">if n==0:</span><br><span class="line">   print("Hello World")</span><br><span class="line">elif n&gt;0:</span><br><span class="line">   print("He\nll\no \nWo\nrl\nd")</span><br><span class="line">else:</span><br><span class="line">   for c in "Hello World":</span><br><span class="line">   print(c)</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Pull-Quote"><a href="#Pull-Quote" class="headerlink" title="Pull Quote"></a>Pull Quote</h3><p>在文章中插入 Pull quote</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% pullquote [class] %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endpullquote %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="jsFiddle"><a href="#jsFiddle" class="headerlink" title="jsFiddle"></a>jsFiddle</h3><p>在文章中嵌入 jsFiddle</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Gist"><a href="#Gist" class="headerlink" title="Gist"></a>Gist</h3><p>在文章中嵌入 Gist，<u>注意</u>：在国内无法加载。</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% gist gist_id [filename] %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="iframe"><a href="#iframe" class="headerlink" title="iframe"></a>iframe</h3><p>在文章中插入 iframe</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% iframe url [width] [height] %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Image-1"><a href="#Image-1" class="headerlink" title="Image"></a>Image</h3><p>在文章中插入指定大小的图片。</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% img [class names] /path/to/image [width] [height] '"title text" "alt text"' %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p>在文章中插入链接，并自动给外部链接添加 <code>target=&quot;_blank&quot;</code> 属性。</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% link text url [external] [title] %&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Include-Code"><a href="#Include-Code" class="headerlink" title="Include Code"></a>Include Code</h3><p>插入 <code>source/downloads/code</code> 文件夹内的代码文件。<code>source/downloads/code</code> 不是固定的，取决于你在配置文件中 <code>code_dir</code> 的配置。</p>
+<figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">&#123;% include_code [title] [lang:language] [from:line] [to:line] path/to/file %&#125;</span><br></pre></td></tr></table></figure>
+
+<details><summary> <p>示例</p> </summary>
+              <div class="content">
+              <p>嵌入 <code>test.js</code> 文件全文</p><figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% include_code lang:javascript test.js %&#125;</span><br></pre></td></tr></table></figure>只嵌入第 3 行<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% include_code lang:javascript from:3 to:3 test.js %&#125;</span><br></pre></td></tr></table></figure>嵌入第 5 行至第 8 行<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% include_code lang:javascript from:5 to:8 test.js %&#125;</span><br></pre></td></tr></table></figure>嵌入第 5 行至文件结束<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% include_code lang:javascript from:5 test.js %&#125;</span><br></pre></td></tr></table></figure>嵌入第 1 行至第 8 行<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% include_code lang:javascript to:8 test.js %&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<h3 id="引用文章"><a href="#引用文章" class="headerlink" title="引用文章"></a>引用文章</h3><p>引用其他文章的链接。</p>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% post_path filename %&#125;</span><br><span class="line">&#123;% post_link filename [title] [escape] %&#125;</span><br></pre></td></tr></table></figure>
+
+<details><summary> <p>示例</p> </summary>
+              <div class="content">
+              <p>引用这篇文章：<a href="/news/2020-02-22/" title="主题更名为「Volantis」">主题更名为「Volantis」</a></p><figure class="highlight md"><figcaption><span>example.md:</span></figcaption><table><tr><td class="code"><pre><span class="line">引用这篇文章：&#123;% post_link news/2020-02-22 %&#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<h3 id="文章摘要和截断"><a href="#文章摘要和截断" class="headerlink" title="文章摘要和截断"></a>文章摘要和截断</h3><p>在文章中使用 <code>&lt;!-- more --&gt;</code>，那么 <code>&lt;!-- more --&gt;</code> 之前的文字将会被视为摘要。首页中将只出现这部分文字，同时这部分文字也会出现在正文之中。</p>
+<div class="note link"><p>更多请见Hexo官方文档：<a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="external nofollow noopener noreferrer">#标签插件</a></p></div>
+
+<p><br><br><span class="btn large center"><a href="https://github.com/theme-volantis/hexo-theme-volantis/issues/" target="_blank" rel="external nofollow noopener noreferrer" title="向开发者反馈问题"><i class="fas fa-paper-plane"></i>向开发者反馈问题</a></span></p>
+
+          
+        </div>
+        
+          
+
+
+  <section class="meta" id="footer-meta">
+    <div class="new-meta-box">
+      
+        
+          
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+
+
+
+  <article class="post white-box reveal comments blur">
+    <section class="article typo">
+      <p ct><i class="fas fa-comments"></i> 用户交流区</p>
+      
+        <p cst>这里仅供用户之间进行交流，有任何疑问请前往GitHub提交Issue。在评论区进行提问将不会收到开发者的任何回复！</p>
+      
+      
+      
+      
+      
+      
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+          </div>
+        </section>
+      
+      
+    </section>
+  </article>
+
+
+  
+
+
+
+
+<!-- 根据页面mathjax变量决定是否加载MathJax数学公式js -->
+
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0/es5/tex-mml-chtml.js"></script>
+<!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3.0/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+
+
+
+</div>
+<aside class="l_side">
+  
+  
+    
+    
+
+<section class="widget list blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-exclamation-triangle fa-fw" aria-hidden="true"></i><span class="name">近期公告</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="https://github.com/theme-volantis/hexo-theme-volantis/issues/215" href="https://github.com/theme-volantis/hexo-theme-volantis/issues/215" id="https:githubcomtheme-volantishexo-theme-volantisissues215" rel="external nofollow noopener noreferrer" target="_blank">
+          <div class="name">
+            
+              <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i>
+            
+            关于主题与文档的更新
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/getting-started/#%E5%8D%87%E7%BA%A7%E5%B0%8F%E5%8A%A9%E6%89%8B" href="/v3/getting-started/#%E5%8D%87%E7%BA%A7%E5%B0%8F%E5%8A%A9%E6%89%8B" id="v3getting-started#E58D87E7BAA7E5B08FE58AA9E6898B">
+          <div class="name">
+            
+              <i class="fas fa-angle-double-up fa-fw" aria-hidden="true"></i>
+            
+            升级小助手
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+
+  
+
+<section class="widget list group blur desktop mobile">
+  
+  <header>
+    
+      <i class="fas fa-list-alt fa-fw" aria-hidden="true"></i><span class="name">文档 V3</span>
+    
+  </header>
+
+
+  <div class="content">
+    <ul class="list entry navigation">
+      
+        <li><a class="flat-box" title="/v3/getting-started/" href="/v3/getting-started/" id="v3getting-started">
+          <div class="name">
+            
+            1. 开始使用
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/site-settings/" href="/v3/site-settings/" id="v3site-settings">
+          <div class="name">
+            
+            2. 站点配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/theme-settings/" href="/v3/theme-settings/" id="v3theme-settings">
+          <div class="name">
+            
+            3. 主题配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/page-settings/" href="/v3/page-settings/" id="v3page-settings">
+          <div class="name">
+            
+            4. 页面配置
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/tag-plugins/" href="/v3/tag-plugins/" id="v3tag-plugins">
+          <div class="name">
+            
+            5. 标签插件
+          </div>
+          
+        </a></li>
+      
+        <li><a class="flat-box" title="/v3/advanced-settings/" href="/v3/advanced-settings/" id="v3advanced-settings">
+          <div class="name">
+            
+            6. 进阶设定
+          </div>
+          
+        </a></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+  
+
+  
+    
+    
+
+<section class="widget text blur desktop">
+  
+  <header>
+    
+      <a href="https://github.com/xaoxuu/" target="_blank" rel="external nofollow noopener noreferrer"><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class="name">点个赞吧</span></a>
+    
+  </header>
+
+
+  <div class="content">
+    
+      <p><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"><img style="width:20%" src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/qq/抱拳.gif"></p>
+
+    
+      <p>您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下。</p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ProHUD" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/ValueX" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/valuex/logo.png" height="50px"></a></p>
+
+    
+      <p><a href="https://github.com/xaoxuu/Inspire" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" data-original="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/inspire/logo.png" height="50px"></a></p>
+
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+
+
+  <section class="widget toc-wrapper blur desktop mobile">
+    
+  <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class="name">本文目录</span>
+    
+  </header>
+
+
+    <div class="content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#文本和段落"><span class="toc-text">文本和段落</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Span-amp-P"><span class="toc-text">Span &amp; P</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Note-amp-NoteBlock"><span class="toc-text">Note &amp; NoteBlock</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Checkbox-amp-Radio"><span class="toc-text">Checkbox &amp; Radio</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#按钮和菜单"><span class="toc-text">按钮和菜单</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#基础按钮"><span class="toc-text">基础按钮</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#富文本按钮"><span class="toc-text">富文本按钮</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Menu"><span class="toc-text">Menu</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#容器"><span class="toc-text">容器</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Tab"><span class="toc-text">Tab</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Folding"><span class="toc-text">Folding</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多媒体"><span class="toc-text">多媒体</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Image"><span class="toc-text">Image</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Fancybox"><span class="toc-text">Fancybox</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Audio"><span class="toc-text">Audio</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Video"><span class="toc-text">Video</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#APlayer"><span class="toc-text">APlayer</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#公式"><span class="toc-text">公式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#MathJax公式"><span class="toc-text">MathJax公式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo-标签"><span class="toc-text">Hexo 标签</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#引用块"><span class="toc-text">引用块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码块"><span class="toc-text">代码块</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#指定语言"><span class="toc-text">指定语言</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#附加说明"><span class="toc-text">附加说明</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#行标、高亮"><span class="toc-text">行标、高亮</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Pull-Quote"><span class="toc-text">Pull Quote</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jsFiddle"><span class="toc-text">jsFiddle</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gist"><span class="toc-text">Gist</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#iframe"><span class="toc-text">iframe</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Image-1"><span class="toc-text">Image</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Link"><span class="toc-text">Link</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Include-Code"><span class="toc-text">Include Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#引用文章"><span class="toc-text">引用文章</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#文章摘要和截断"><span class="toc-text">文章摘要和截断</span></a></li></ol></li></ol>
+    </div>
+  </section>
+
+
+  
+
+
+</aside>
+
+
+
+    </div>
+    
+  
+  <footer class="clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+
+  
+    <meting-js theme="#1BCDFC" autoplay="true" volume="0.4" loop="all" order="random" fixed="false" list-max-height="340px" server="netease" type="playlist" id="76244489" list-folded="true">
+    </meting-js>
+  
+
+
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="mailto:me@xaoxuu.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://github.com/xaoxuu" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://music.163.com/#/user/home?id=63035382" class="social fas fa-headphones-alt flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        本站使用
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
+        作为主题，总访问量为
+          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          次
+        
+      
+    
+      
+        <div class="copyright">
+        <p><a href="https://xaoxuu.com" target="_blank" rel="noopener">Copyright © 2017-2020 Mr. X</a></p>
+
+        </div>
+      
+    
+  </footer>
+
+
+    <a class="s-top fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+  </div>
+  <div>
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+
+  
+  
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        var imgs=["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/BBC19066-E176-47C2-9D22-48C81EE5DF6B.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg", "https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg"];
+        if ('true' == 'true') {
+          function shuffle(arr){
+            /*From countercurrent-time*/
+            var n = arr.length;
+            while(n--) {
+              var index = Math.floor(Math.random() * n);
+              var temp = arr[index];
+              arr[index] = arr[n];
+              arr[n] = temp;
+            }
+          }
+          shuffle(imgs);
+        }
+        if ('') {
+          $('').backstretch(
+            imgs,
+          {
+            duration: "20000",
+            fade: "1500"
+          });
+        } else {
+          $.backstretch(
+            imgs,
+          {
+            duration: "20000",
+            fade: "1500"
+          });
+        }
+      });
+    </script>
+  
+
+
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
+
+  
+
+
+<!--PS：只对 valine 做了 Pjax 兼容-->
+
+
+
+
+
+
+
+  
+    
+<script src="/js/valine.js"></script>
+
+  
+  <script>
+    var GUEST_INFO = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail'.split(',').filter(function (item) {
+      return GUEST_INFO.indexOf(item) > -1
+    });
+    var REQUIRED_FIELDS = ['nick', 'mail', 'link'];
+    var requiredFields = 'nick'.split(',').filter(function (item) {
+      return REQUIRED_FIELDS.indexOf(item) > -1
+    });
+
+    function emoji(path, idx, ext) {
+      return path + "/" + path + "-" + idx + "." + ext;
+    }
+
+    var emojiMaps = {};
+    for (var i = 1; i <= 54; i++) {
+      emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+    }
+    for (var i = 1; i <= 101; i++) {
+      emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+    }
+    for (var i = 1; i <= 116; i++) {
+      emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+    }
+    for (var i = 1; i <= 125; i++) {
+      emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+    }
+    for (var i = 1; i <= 4; i++) {
+      emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+    }
+
+    function pjax_valine() {
+      var valinePath = $.trim($('#valine-path').text()) === "none" ?
+              window.location.pathname : $.trim($('#valine-path').text());
+
+      var valinePlaceholder = $.trim($('#valine-placeholder').text()) === "none" ?
+              "这里仅供用户之间进行交流，有任何疑问请前往GitHub提交Issue。在评论区进行提问将不会收到开发者的任何回复！" : $.trim($('#valine-placeholder').text());
+
+      var ALLPATH = '/';
+      if(ALLPATH != '') valinePath = ALLPATH;
+
+      var valine = new Valine();
+      valine.init({
+        el: '#valine_container',
+        meta: meta,
+        placeholder: valinePlaceholder,
+        path: valinePath,
+        appId: "FIKAgh6n0pUM08JXxhJHChVQ-MdYXbMMI",
+        appKey: "RJGiOYFc1fBvfox4frBPpRzU",
+        pageSize: '10',
+        avatar: 'robohash',
+        lang: 'zh-cn',
+        visitor: 'true',
+        highlight: 'true',
+        mathJax: 'false',
+        enableQQ: 'true',
+        requiredFields: requiredFields,
+        emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+        emojiMaps: emojiMaps
+      })
+    }
+
+    $(function () {
+      pjax_valine();
+    });
+  </script>
+
+
+
+<!--darkmodejs -->
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+
+    function pjax_initCopyCode() {
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        var clipboard = new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+                return trigger.nextElementSibling
+            }
+        });
+        clipboard.on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+</script>
+
+
+<!--scrollreveal -->
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    function pjax_scrollrebeal() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    }
+
+    $(function () {
+      pjax_scrollrebeal();
+    });
+  </script>
+
+<!-- ******************************** -->
+
+<!-- fancybox -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  function pjax_fancybox() {
+    $(".article-entry").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 判断当前页面是否存在描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".article-entry").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  $(function () {
+    pjax_fancybox();
+  });
+</script>
+
+<!-- ******************************** -->
+
+
+  
+<script src="/js/app.js"></script>
+
+
+
+
+  
+    
+<script src="/js/search.js"></script>
+
+  
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js" data-pjax></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+
+
+
+
+
+
+    
+      
+
+
+<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+
+<!-- 样式位于：source/css/_third-party/pjaxanimate.styl -->
+
+<div class="pjax-animate">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+    <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+    <div id="loading-bar-wrapper"><script>NProgress.configure({parent:"#loading-bar-wrapper",trickleSpeed: 100})</script></div>
+    <script>
+      window.ShowLoading = function() {
+        NProgress.start();
+      };
+      window.HideLoading = function() {
+        NProgress.done();
+      }
+    </script>
+  
+</div>
+
+<script>
+    var pjax;
+    document.addEventListener('DOMContentLoaded', function () {
+      pjax = new Pjax({
+        elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
+        selectors: [
+          "title",
+          "#pjax-container"
+        ],
+        cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+        timeout: 5000
+      });
+    });
+  
+    document.addEventListener('pjax:send', function (e) {
+      window.stop(); // 相当于点击了浏览器的停止按钮
+      var currentUrl = window.location.pathname;
+      var targetUrl = e.triggerElement.href;
+      var banUrl = [""];
+      if (banUrl[0] != "") {
+        banUrl.forEach(item => {
+          if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+            window.location.href = targetUrl;
+          }
+        });
+      }
+      window.subData = null; // 移除标题（用于一二级导航栏切换处）
+      $.fancybox.close();    // 关闭弹窗
+      $('.nav-main').find('.list-v').not('.menu-phone').css("display","none"); // 移除小尾巴
+      $('.menu-phone.list-v').css("display","none"); // 移除小尾巴
+      $('.l_header .switcher .s-search').removeClass('active'); // 关闭移动端激活的搜索框
+      $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
+      $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
+      $(window).unbind('resize');    // 解绑
+      $(window).unbind('scroll');    // 解绑
+      $(window).unbind('click');     // 解绑
+      $(document).unbind('scroll');  // 解绑
+      window.ShowLoading();
+    });
+  
+    document.addEventListener('pjax:complete', function () {
+      // 关于百度统计对 SPA 页面的处理：
+      // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
+      // 方案二：取消注释下列代码。 https://tongji.baidu.com/web/help/article?id=235
+      // 
+  
+      // 关于谷歌统计对 SPA 页面的处理：
+      // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
+      // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
+      
+      
+      $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
+      $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+  
+      try{
+        pjax_fancybox();
+        
+          
+          if ('') {
+            $('').backstretch("resize");
+          } else {
+            $.backstretch("resize");
+          }
+        
+        
+          pjax_scrollrebeal();
+        
+        
+          pjax_initCopyCode();
+        
+        
+          pjax_valine();
+        
+        
+        
+      } catch (e) {
+        console.log(e);
+      }
+      window.HideLoading();
+    });
+  
+    document.addEventListener('pjax:error', function (e) { 
+      window.HideLoading(); 
+      window.location.href = e.triggerElement.href; 
+    }); 
+</script>
+  
+    
+  </div>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: true,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var i=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){i&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,e,a=0;a<r.length;a++)t=r[a],e=void 0,0<=(e=t.getBoundingClientRect()).bottom&&0<=e.left&&e.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
+</html>
